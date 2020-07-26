@@ -1,0 +1,29 @@
+****** HSPICE -- P-2019.06-SP1-1 linux64 (Sep 27 2019) ******
+Input File: q3.sp
+lic:
+lic: FLEXlm: SDK_12.3
+lic: USER:   EE735_6              HOSTNAME: mcl16
+lic: HOSTID: "001517a3883c"       PID:      29246
+lic: Using FLEXlm license file:
+lic: 27020@mcl16
+lic: Checkout 1 hspice
+lic: License/Maintenance for hspice will expire on 14-nov-2019/2019.06
+lic: 1(in_use)/10(total) FLOATING license(s) on SERVER 27020@mcl16
+lic:
+
+ init: begin read circuit files, cpu clock= 9.81E-02
+       option search = /usr/local/Software/Hspice/hspice/P-2019.06-SP1-
+                         1/hspice/parts/ad
+       option post =     2.00
+ init: end read circuit files, cpu clock= 2.27E+00 peak memory=     297 mb
+ init: begin check errors, cpu clock= 2.27E+00
+ init: end check errors, cpu clock= 2.27E+00 peak memory=     300 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 2.27E+00
+       establish matrix -- done, cpu clock= 2.27E+00 peak memory=     300 mb
+       re-order matrix -- done, cpu clock= 2.27E+00 peak memory=     300 mb
+ init: end setup matrix, cpu clock= 2.36E+00 peak memory=     300 mb
+ output: q3.sw0
+ sweep: dc dc0    begin, #sweeps=2001 cpu clock= 2.37E+00
+ sweep: dc dc0    end, cpu clock= 2.50E+00 peak memory=     300 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

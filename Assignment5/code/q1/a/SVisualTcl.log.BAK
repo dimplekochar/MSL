@@ -1,0 +1,82 @@
+load_file /home/users/EE735_2019/EE735_6/dimple/assign5b/q1/a/3V_neg_dd_des.tdr
+create_plot -dataset 3V_neg_dd_des
+select_plots {Plot_3V_neg_dd_des}
+#-> Plot_3V_neg_dd_des
+#-> Plot_3V_neg_dd_des
+#-> 3V_neg_dd_des
+create_cutline -plot Plot_3V_neg_dd_des -type y -at 0.389002
+select_plots {Plot_1}
+#-> Plot_1
+#-> C1(3V_neg_dd_des)
+create_curve -plot Plot_1 -dataset {C1(3V_neg_dd_des)} -axisX "X" -axisY "ConductionBandEnergy"
+#-> Curve_2
+remove_curves {Curve_1} -plot Plot_1
+#-> Curve_1
+remove_curves {Curve_2} -plot Plot_1
+#-> Curve_2
+create_curve -plot Plot_1 -dataset {C1(3V_neg_dd_des)} -axisX "X" -axisY "ConductionBandEnergy"
+#-> Curve_1
+create_curve -plot Plot_1 -dataset {C1(3V_neg_dd_des)} -axisX "X" -axisY "ValenceBandEnergy"
+#-> Curve_2
+load_file /home/users/EE735_2019/EE735_6/dimple/assign5b/q1/b/3V_neg_dd_des.tdr
+create_plot -dataset 3V_neg_dd_des_2
+select_plots {Plot_3V_neg_dd_des_2}
+#-> Plot_3V_neg_dd_des_2
+#-> Plot_3V_neg_dd_des_2
+#-> 3V_neg_dd_des_2
+select_plots {Plot_1}
+#-> Plot_1
+move_plot -position {0 0} -plot Plot_1
+#-> 0
+select_plots {Plot_3V_neg_dd_des_2}
+#-> Plot_3V_neg_dd_des_2
+create_cutline -plot Plot_3V_neg_dd_des_2 -type y -at 0.472748
+#-> C2(3V_neg_dd_des_2)
+select_plots {Plot_1}
+#-> Plot_1
+remove_curves {Curve_3} -plot Plot_1
+#-> Curve_3
+create_curve -plot Plot_1 -dataset {C2(3V_neg_dd_des_2)} -axisX "X" -axisY "ConductionBandEnergy"
+#-> Curve_3
+create_curve -plot Plot_1 -dataset {C2(3V_neg_dd_des_2)} -axisX "X" -axisY "ValenceBandEnergy"
+#-> Curve_4
+remove_curves {Curve_1 Curve_2} -plot Plot_1
+#-> Curve_1 Curve_2
+move_plot -position {0 0} -plot Plot_1
+#-> 0
+zoom_plot -plot Plot_1 -reset
+select_plots {Plot_3V_neg_dd_des_2}
+#-> Plot_3V_neg_dd_des_2
+select_plots {Plot_1}
+#-> Plot_1
+create_curve -plot Plot_1 -dataset {C1(3V_neg_dd_des)} -axisX "ConductionBandEnergy" -axisY "ConductionBandEnergy"
+#-> Curve_5
+create_curve -plot Plot_1 -dataset {C1(3V_neg_dd_des)} -axisX "X" -axisY "ValenceBandEnergy"
+#-> Curve_6
+remove_curves {Curve_3 Curve_4} -plot Plot_1
+#-> Curve_3 Curve_4
+zoom_plot -plot Plot_1 -reset
+remove_curves {Curve_5} -plot Plot_1
+#-> Curve_5
+create_curve -plot Plot_1 -dataset {C1(3V_neg_dd_des)} -axisX "X" -axisY "ConductionBandEnergy"
+#-> Curve_7
+zoom_plot -plot Plot_1 -reset
+load_file /home/users/EE735_2019/EE735_6/dimple/assign5b/q1/c/3V_neg_dd_des.tdr
+create_plot -dataset 3V_neg_dd_des_3
+select_plots {Plot_3V_neg_dd_des_3}
+#-> Plot_3V_neg_dd_des_3
+#-> Plot_3V_neg_dd_des_3
+#-> 3V_neg_dd_des_3
+create_cutline -plot Plot_3V_neg_dd_des_3 -type y -at 0.418245
+#-> C3(3V_neg_dd_des_3)
+select_plots {Plot_1}
+#-> Plot_1
+create_curve -plot Plot_1 -dataset {C3(3V_neg_dd_des_3)} -axisX "X" -axisY "ConductionBandEnergy"
+#-> Curve_9
+create_curve -plot Plot_1 -dataset {C3(3V_neg_dd_des_3)} -axisX "X" -axisY "ValenceBandEnergy"
+#-> Curve_10
+remove_curves {Curve_8} -plot Plot_1
+#-> Curve_8
+remove_curves {Curve_6 Curve_7} -plot Plot_1
+#-> Curve_6 Curve_7
+exit

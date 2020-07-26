@@ -1,0 +1,49 @@
+
+Begin of pVA compiling on Sat Nov  2 02:38:27 2019	GTM/In-use: 0.2500/0.2058 MB
+
+Parsing 'q4_mos.va'
+Parsing include file '/usr/local/Software/Hspice/hspice/P-2019.06-SP1-1/hspice/include/disciplines.vams'
+Parsing include file '/usr/local/Software/Hspice/hspice/P-2019.06-SP1-1/hspice/include/constants.vams'
+Parsing 'q4_res.va'
+Parsing include file '/usr/local/Software/Hspice/hspice/P-2019.06-SP1-1/hspice/include/disciplines.vams'
+Parsing include file '/usr/local/Software/Hspice/hspice/P-2019.06-SP1-1/hspice/include/constants.vams'
+
+End of pVA compiling on Sat Nov  2 02:38:27 2019	GTM/In-use: 0.3750/0.3460 MB
+
+
+End of build pVA DB on Sat Nov  2 02:38:27 2019	GTM/In-use: 2.6250/2.5407 MB
+
+*pvaI* Module (simple_mos): 4 unexpanded port, 0 init, 3 behav, 2 contrib, 49/1 expr(s)
+*pvaI*        Has DIS(ST), 0/0 afCount, 0 MT, dlg, IO(0/0/1/0)
+*pvaI*        0 gmdIsThreadSafe (ST)
+*pvaI*        0 const-G and 0 const-C, Has switchBranch, 22 bypassOpt, 0 bus2scalar, 0 vwb
+*pvaI*        set_va_exp = 80 [80.0, 704.0] set by default
+*pvaW*        variable 'P_EPSSI' declared but not used in RHS, deleted (q4_mos.va:19)
+*pvaW*                   To relax this rule, use 'setenv PVA_KEEP_VARS 1' to keep variables for probing.
+*pvaW*        variable 'PHI' declared but not used in RHS, deleted (q4_mos.va:20)
+*pvaW*        variable 'GAMMA' declared but not used in RHS, deleted (q4_mos.va:20)
+*pvaW*        variable 'COX' declared but not used in RHS, deleted (q4_mos.va:20)
+*pvaW*        variable 'PHI_F' declared but not used in RHS, deleted (q4_mos.va:20)
+*pvaW*        variable 'Ni' declared but not used in RHS, deleted (q4_mos.va:21)
+*pvaW*        variable 'q' declared but not used in RHS, deleted (q4_mos.va:22)
+*pvaI*        port 'b' at 4 declared, but not used
+*pvaI*        generated 0 flow node(s) during compilation.
+*pvaI* Module (resistor): 2 unexpanded port, 0 init, 1 behav, 1 contrib, 12/0 expr(s)
+*pvaI*        No DIS, 0/0 afCount, 0 MT, dlg, IO(0/0/0/0)
+*pvaI*        0 gmdIsThreadSafe 
+*pvaI*        1 const-G and 0 const-C, No switchBranch, 22 bypassOpt, 0 bus2scalar, 0 vwb
+*pvaI*        set_va_exp = 80 [80.0, 704.0] set by default
+*pvaI*        generated 0 flow node(s) during compilation.
+
+End of pVA genC on Sat Nov  2 02:38:29 2019	GTM/In-use: 3.0000/2.8260 MB
+
+*pvaI* #### Total 552 line-size(s), 61/1 expr(s), 3 contr(s), 0 init(s), 4 behav(s), 6 port(s)
+
+Generating q4.pvadir/pvaRTL_linux64.so
+
+
+End of submitting pVA q4.pvadir/pvaRTL.mak on Sat Nov  2 02:38:30 2019	GTM/In-use: 3.0000/2.8261 MB
+
+
+End of pVA elaboration on Sat Nov  2 02:38:30 2019	GTM/In-use: 3.0000/2.5751 MB
+

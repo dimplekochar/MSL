@@ -1,0 +1,61 @@
+
+*pvaI* current limit stacksize=10485760, set new limit stacksize=62914560
+ ---------------------------------------------------------
+|                                                         |
+|             Synopsys Unified Verilog-A (pVA)            |
+|                                                         |
+|                   Machine Name: mcl16                   |
+| Copyright (c) 2015 Synopsys Inc., All Rights Reserved.  |
+|                                                         |
+ ---------------------------------------------------------
+
+libepva built by pvamgr synmake_pva_build  on Wed Sep 25 16:59:49 PDT 2019 - p4:5837255
+HSP_HOME:   /usr/local/Software/Hspice/hspice/P-2019.06-SP1-1/hspice
+HSP_ARCH:   linux64
+HSP_GCC :   /usr/local/Software/Hspice/hspice/P-2019.06-SP1-1/hspice/GNU/linux64/gcc/bin/gcc -m64 
+HSP_GCC_VER:   6.2.0
+Working-Dir: /home/users/EE735_2019/EE735_6/dimple/assign8/q1
+Args:        -p hsp -t spi -f q1.pvadir/pvaHDL.lis -o q1.pvadir 
+
+### optimize mode ###
+
+Begin of pVA compiling on Sat Nov  2 01:35:07 2019	GTM/In-use: 0.2500/0.1967 MB
+
+Parsing 'q1.va'
+Parsing include file '/usr/local/Software/Hspice/hspice/P-2019.06-SP1-1/hspice/include/disciplines.vams'
+Parsing include file '/usr/local/Software/Hspice/hspice/P-2019.06-SP1-1/hspice/include/constants.vams'
+
+End of pVA compiling on Sat Nov  2 01:35:07 2019	GTM/In-use: 0.3750/0.2905 MB
+
+
+End of build pVA DB on Sat Nov  2 01:35:08 2019	GTM/In-use: 1.5000/1.4339 MB
+
+
+q1.pvadir/pvaRTL_linux64.so is reused
+
+End of pVA elaboration on Sat Nov  2 01:35:08 2019	GTM/In-use: 1.7500/1.6229 MB
+
+*pvaI* Creating VA module (simple_mos) for instance X1 with gmd reduction
+*pvaI*        termCount=4 diwSize=8 probeSize=13 Qsize=0 Isize=1
+End of GMD creation on Sat Nov  2 01:35:08 2019	GTM/In-use: 1.7500/0.6405 MB
+
+End of pVA setup    on Sat Nov  2 01:35:08 2019	GTM/In-use: 1.7500/0.6744 MB
+
+Begin of pVA simulation on Sat Nov  2 01:35:08 2019	GTM/In-use: 1.7500/0.6744 MB
+
+
+End of pVA simulation reached at time 0 on Sat Nov  2 01:35:08 2019	GTM/In-use: 1.7500/0.5625 MB
+
+
+			pVA malloc          0.128 Mbytes          682 times
+			pVA calloc          1.701 Mbytes         1814 times
+			pVA realloc         0.001 Mbytes           16 times
+			pVA valloc          0.000 Mbytes            0 times
+			pVA alloca          0.000 Mbytes            0 times
+
+			pVA TOT-MEM         1.830 Mbytes         2512 times
+			pVA free                                  873 times
+			pVA strdup          0.000 Mbytes            0 times
+
+pVA concluded on Sat Nov  2 01:35:08 2019	GTM/In-use: 1.7500/0.5625 MB
+

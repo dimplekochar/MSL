@@ -1,0 +1,9 @@
+load_file /home/users/EE735_2019/EE735_6/dimple/assign5b/q3/3V_neg_dd_des.tdr
+create_plot -dataset 3V_neg_dd_des
+select_plots {Plot_3V_neg_dd_des}
+#-> Plot_3V_neg_dd_des
+#-> Plot_3V_neg_dd_des
+#-> 3V_neg_dd_des
+set_field_prop ElectricField-V -show
+#-> 0
+exit

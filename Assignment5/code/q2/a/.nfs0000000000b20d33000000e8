@@ -1,0 +1,8 @@
+load_file /home/users/EE735_2019/EE735_6/dimple/assign5b/q2/a/q2_msh.tdr
+create_plot -dataset q2_msh
+select_plots {Plot_q2_msh}
+#-> Plot_q2_msh
+#-> Plot_q2_msh
+#-> q2_msh
+set_material_prop {Silicon} -geom q2_msh -show_mesh
+#-> 0

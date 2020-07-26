@@ -1,0 +1,62 @@
+q = 1.6*10^-19;
+Qt = 10^15; %dose
+Rp = 0.1*10^-4; %penetration depth
+deltRp = 0.0374*10^-4; %straggle
+Nm = Qt/(Rp*sqrt(2*pi)); %peak concentration
+N = 100; %number of grid points
+plus = round(N/8.5); %40 nm  away point
+Do = 10.5; %cm^2/sec %boron in Si - diffusion
+Ea = 3.69*q;  %boron in Si - activation
+Temp = 1000+273; %temperature %fix any temperature
+kb = 1.38*10^-23; %boltzmann constant
+D = Do*exp(-Ea/(kb*Temp));
+xgrid  = linspace(0, 0.34*10^-4, N+1);
+x = xgrid(2) - xgrid(1);
+p = x^2/(2*D);
+T = 1000; %no. of time steps
+t = p*T; %sec %total time
+tgrid = linspace(0, t, T+1);
+n_in = Nm*exp(-((xgrid-Rp).^2)/(2*deltRp^2)); %initial concentration
+
+Nsub = 10^17; %cm^-3 %substrate doping
+jd = sqrt(2*log(Nm/Nsub))*deltRp+Rp; %junction depth
+for i=1:N
+    if xgrid(i+1)>=jd && xgrid(i)<=jd
+        index = i;
+        break;
+    end
+end
+
+jdc = xgrid(index); %junction depth %can't get exact numerical 
+jd40 = xgrid(index+plus); %junction depth + 40 nm point
+n(1:N+1, 1:T+1) = 0;
+n(1:N+1, 1) = n_in;
+n_new(1:N+1, 1:T+1) = 0;
+err = 0;
+iter = 0;
+while true
+    for j=2:T+1
+        for i=2:N
+            n_new(i,j) = (((n(i+1,j)+n(i-1,j))/x^2)+(n(i,j-1)/(D*p)))/((2/x^2)+(1/(D*p)));
+            if abs(n_new(i,j)-n(i,j))>err
+                err = abs(n_new(i,j)-n(i,j));
+            end
+            n(i,j) = n_new(i,j);
+        end
+        n(1,j) = n(2, j); %neumann
+        n(N+1,j) = n(N,j); 
+    end
+    iter = iter+1;
+    
+    if err<0.5
+        break;
+    end
+    err=0;
+end
+for j=2:T+1z
+    if n(index,j)/n(index+plus,j)<=10
+        break;
+    end
+end
+
+thermal_budget = tgrid(j)*D; 

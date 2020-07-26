@@ -1,0 +1,118 @@
+load_file /home/users/EE735_2019/EE735_6/dimple/assign7/A/1a/10/5_pn_final_structure_fps.tdr
+create_plot -dataset 5_pn_final_structure_fps
+select_plots {Plot_5_pn_final_structure_fps}
+#-> Plot_5_pn_final_structure_fps
+#-> Plot_5_pn_final_structure_fps
+#-> 5_pn_final_structure_fps
+export_view /home/users/EE735_2019/EE735_6/dimple/assign7/A/1a/10/dev.png -plots {Plot_5_pn_final_structure_fps} -format PNG
+#-> 0
+create_cutline -plot Plot_5_pn_final_structure_fps -type x -at 0.49833
+select_plots {Plot_1}
+#-> Plot_1
+#-> C1(5_pn_final_structure_fps)
+set_axis_prop -plot Plot_1 -axis y -title "Net active concentration (cm^-3)"
+#-> 0
+set_axis_prop -plot Plot_1 -axis y -title "Net active concentration (cm^-3)"
+#-> 0
+set_axis_prop -plot Plot_1 -axis x -title "X (um)"
+#-> 0
+set_axis_prop -plot Plot_1 -axis x -title "X (um)"
+#-> 0
+load_file /home/users/EE735_2019/EE735_6/dimple/assign7/A/1a/20/5_pn_final_structure_fps.tdr
+create_plot -dataset 5_pn_final_structure_fps_2
+select_plots {Plot_5_pn_final_structure_fps_2}
+#-> Plot_5_pn_final_structure_fps_2
+#-> Plot_5_pn_final_structure_fps_2
+#-> 5_pn_final_structure_fps_2
+export_view /home/users/EE735_2019/EE735_6/dimple/assign7/A/1a/20/dev.png -plots {Plot_5_pn_final_structure_fps_2} -format PNG
+#-> 0
+create_cutline -plot Plot_5_pn_final_structure_fps_2 -type x -at 0.5
+#-> C2(5_pn_final_structure_fps_2)
+load_file /home/users/EE735_2019/EE735_6/dimple/assign7/A/1a/40/5_pn_final_structure_fps.tdr
+create_plot -dataset 5_pn_final_structure_fps_3
+select_plots {Plot_5_pn_final_structure_fps_3}
+#-> Plot_5_pn_final_structure_fps_3
+#-> Plot_5_pn_final_structure_fps_3
+#-> 5_pn_final_structure_fps_3
+export_view /home/users/EE735_2019/EE735_6/dimple/assign7/A/1a/40/dev.png -plots {Plot_5_pn_final_structure_fps_3} -format PNG
+#-> 0
+create_cutline -plot Plot_5_pn_final_structure_fps_3 -type x -at 0.503373
+#-> C3(5_pn_final_structure_fps_3)
+select_plots {Plot_1}
+#-> Plot_1
+export_view /home/users/EE735_2019/EE735_6/dimple/assign7/A/1a/energy.png -plots {Plot_1} -format PNG
+#-> 0
+remove_curves {Curve_2 Curve_3} -plot Plot_1
+#-> Curve_2 Curve_3
+zoom_plot -plot Plot_1 -reset
+export_view /home/users/EE735_2019/EE735_6/dimple/assign7/A/1a/10/10.png -plots {Plot_1} -format PNG
+#-> 0
+create_curve -plot Plot_1 -dataset {C2(5_pn_final_structure_fps_2)} -axisX "Y" -axisY "NetActive"
+#-> Curve_2
+remove_curves {Curve_1} -plot Plot_1
+#-> Curve_1
+zoom_plot -plot Plot_1 -reset
+export_view /home/users/EE735_2019/EE735_6/dimple/assign7/A/1a/20/20.png -plots {Plot_1} -format PNG
+#-> 0
+create_curve -plot Plot_1 -dataset {C3(5_pn_final_structure_fps_3)} -axisX "Y" -axisY "NetActive"
+#-> Curve_3
+remove_curves {Curve_2} -plot Plot_1
+#-> Curve_2
+zoom_plot -plot Plot_1 -reset
+export_view /home/users/EE735_2019/EE735_6/dimple/assign7/A/1a/40/40.png -plots {Plot_1} -format PNG
+#-> 0
+select_plots {Plot_5_pn_final_structure_fps}
+#-> Plot_5_pn_final_structure_fps
+select_plots {Plot_5_pn_final_structure_fps_3}
+#-> Plot_5_pn_final_structure_fps_3
+select_plots {Plot_1}
+#-> Plot_1
+load_file /home/users/EE735_2019/EE735_6/dimple/assign7/A/1b/1e14/5_pn_final_structure_fps.tdr
+create_plot -dataset 5_pn_final_structure_fps_4
+select_plots {Plot_5_pn_final_structure_fps_4}
+#-> Plot_5_pn_final_structure_fps_4
+#-> Plot_5_pn_final_structure_fps_4
+#-> 5_pn_final_structure_fps_4
+export_view /home/users/EE735_2019/EE735_6/dimple/assign7/A/1b/1e14/dev.png -plots {Plot_5_pn_final_structure_fps_4} -format PNG
+#-> 0
+create_cutline -plot Plot_5_pn_final_structure_fps_4 -type x -at 0.496627
+#-> C4(5_pn_final_structure_fps_4)
+select_plots {Plot_1}
+#-> Plot_1
+remove_curves {Curve_3} -plot Plot_1
+#-> Curve_3
+zoom_plot -plot Plot_1 -reset
+export_view /home/users/EE735_2019/EE735_6/dimple/assign7/A/1b/1e14/1e14.png -plots {Plot_1} -format PNG
+#-> 0
+load_file /home/users/EE735_2019/EE735_6/dimple/assign7/A/1b/1e15/5_pn_final_structure_fps.tdr
+create_plot -dataset 5_pn_final_structure_fps_5
+select_plots {Plot_5_pn_final_structure_fps_5}
+#-> Plot_5_pn_final_structure_fps_5
+#-> Plot_5_pn_final_structure_fps_5
+#-> 5_pn_final_structure_fps_5
+export_view /home/users/EE735_2019/EE735_6/dimple/assign7/A/1b/1e15/dev.png -plots {Plot_5_pn_final_structure_fps_5} -format PNG
+#-> 0
+create_cutline -plot Plot_5_pn_final_structure_fps_5 -type y -at 0.265882
+select_plots {Plot_2}
+#-> Plot_2
+#-> C5(5_pn_final_structure_fps_5)
+undo
+undo
+undo
+select_plots {Plot_2}
+#-> Plot_2
+select_plots {Plot_5_pn_final_structure_fps_5}
+#-> Plot_5_pn_final_structure_fps_5
+create_cutline -plot Plot_5_pn_final_structure_fps_5 -type y -at 0.407538
+#-> C6(5_pn_final_structure_fps_5)
+create_cutline -plot Plot_5_pn_final_structure_fps_5 -type x -at 0.493255
+#-> C7(5_pn_final_structure_fps_5)
+select_plots {Plot_1}
+#-> Plot_1
+remove_plots {Plot_1}
+select_plots {Plot_5_pn_final_structure_fps}
+#-> Plot_5_pn_final_structure_fps
+#-> Plot_1
+undo
+undo
+exit

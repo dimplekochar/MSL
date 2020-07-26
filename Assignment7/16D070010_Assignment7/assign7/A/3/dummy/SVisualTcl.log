@@ -1,0 +1,10 @@
+load_file /home/users/EE735_2019/EE735_6/dimple/assign7/A/3/dummy/5_pn_final_structure_fps.tdr
+create_plot -dataset 5_pn_final_structure_fps
+select_plots {Plot_5_pn_final_structure_fps}
+#-> Plot_5_pn_final_structure_fps
+#-> Plot_5_pn_final_structure_fps
+#-> 5_pn_final_structure_fps
+create_cutline -plot Plot_5_pn_final_structure_fps -type x -at 0.492117
+select_plots {Plot_1}
+#-> Plot_1
+#-> C1(5_pn_final_structure_fps)

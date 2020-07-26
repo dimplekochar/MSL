@@ -1,0 +1,9 @@
+load_file /home/users/EE735_2019/EE735_6/dimple/assign5b/q3/q3_msh.tdr
+create_plot -dataset q3_msh
+select_plots {Plot_q3_msh}
+#-> Plot_q3_msh
+#-> Plot_q3_msh
+#-> q3_msh
+set_material_prop {SiO2} -geom q3_msh -show_mesh
+#-> 0
+exit

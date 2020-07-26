@@ -1,0 +1,603 @@
+****************************************************************************
+***                          Sentaurus Process                           ***
+***                          Version G-2012.06                           ***
+***                         (1.7, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1993-2002                        ***
+***          The board of regents of the University of Florida           ***
+***                       Copyright (C) 1994-2012                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Mon Apr 30 22:52:45 PDT 2012 on tcadprod5
+
+      Started at: Mon Oct 21 18:10:21 2019 (UTC)
+       User name: EE735_6
+       Host name: mcl22
+             PID: 13896
+    Architecture: x86_64
+Operating system: Linux rel. 2.6.32-642.13.1.el6.x86_64 ver. #1 SMP Wed Jan 11 20:56:24 UTC 2017
+
+------------------------------------------------------------------------------
+Checking syntax of q1.cmd:
+
+Syntax check complete.
+------------------------------------------------------------------------------
+
+Starting Tcl interpreter with inputfile: q1.cmd
+            sprocess: Checked Out
+           Floops-1D: Checked Out
+
+Loading models file: /usr/local/Softwares/Sentaurus/Sentaurus_vG_2012.06/bin/../tcad/current/lib/sprocess-20.0.7/TclLib/SPROCESS.models... done.
+------------------------------------------------------------------- line -----
+line X location= 0.00e+00<um> spacing= 1.00<nm> tag= "SiTop"
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line X location= 50.00<nm> spacing= 10.00<nm>
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line X location= 100.00<nm> spacing= 20.00<nm>
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line X location= 500.00<nm> spacing= 50.00<nm>
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line X location= 1200.00<nm> spacing= 100.00<nm> tag= "SiBottom"
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line Y location= 0.00e+00<um> spacing= 50.00<nm> tag= "Left"
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line Y location= 1000.00<nm> spacing= 50.00<nm> tag= "Right"
+------------------------------------------------------------------------------
+----------------------------------------------------------------- region -----
+region xlo= "SiTop" xhi= "SiBottom" ylo= "Left" yhi= "Right" Silicon
+------------------------------------------------------------------------------
+------------------------------------------------------------------- init -----
+init concentration= 1.00e+17<cm-3> field= "Boron" wafer.orient= {100.00}
+------------------------------------------------------------------------------
+          sprocess2d: Checked Out
+           Floops-2D: Checked Out
+
+Creating structure...
+Recreating refinements to take into account updated simulation dimension.
+Done recreating refinements.
+
+
+Points: 38
+Nodes: 38
+Edges: 37
+Faces: 0
+Volumes: 0
+
+----------------------------------------------------------------- mgoals -----
+mgoals accuracy= 1.00e-05<um> min.normal.size= 2.00<nm> normal.growth.ratio= 1.40
+------------------------------------------------------------------------------
+---------------------------------------------------------------- deposit -----
+deposit time= 1.00<min> type= "isotropic" rate= {0.150<um/min>} material= {Oxide}
+------------------------------------------------------------------------------
+MGoals time: 0.095986
+
+Updating sprocess mesh before Etch/Depo relax.
+Generating SnMesh mesh... 
+SnMesh time: 2.9990e-03
+
+========================  tri-grid quality (Gas exluded)  ========================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %   26   2                           2  53                                
+---------------------------------------------------------------------------------
+minAngle: 0.0859913  maxAngle: 90
+nVerts = 148  nTris = 146  nMats = 5
+max connectivity (tris per node): 3
+bmin: 1.2 0
+bmax: -0.250015 0.000145002
+min edgeLength: 0.000145002  [near (-0.148446 7.25008e-05)]
+min volume: 7.45095e-08  max volume: 7.00459e-06  Total volume: 0.000195752
+bbox  volume: 0.000210254
+Are all boundaries on bbox? true
+=================================================================================
+Initializing sprocess...time: 0.046993
+Interpolating...elapsed time: 0.03
+sprocess parallel assembly thread count = 1
+sprocess Pardiso thread count = 1
+Mechanics:         0s   to         1s   step    :         1s   temp: 26.9C->26.9C
+------------------------------------------------------------------- grid -----
+grid remesh
+------------------------------------------------------------------------------
+Generating SnMesh mesh... 
+SnMesh time: 2.9990e-03
+
+========================  tri-grid quality (Gas exluded)  ========================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %   26   2                           2  53                                
+---------------------------------------------------------------------------------
+minAngle: 0.0859913  maxAngle: 90
+nVerts = 148  nTris = 146  nMats = 5
+max connectivity (tris per node): 3
+bmin: 1.2 0
+bmax: -0.250015 0.000145002
+min edgeLength: 0.000145002  [near (-0.148446 7.25008e-05)]
+min volume: 7.45095e-08  max volume: 7.00459e-06  Total volume: 0.000195752
+bbox  volume: 0.000210254
+Are all boundaries on bbox? true
+=================================================================================
+Initializing sprocess...time: 0.045993
+Interpolating...elapsed time: 0.02
+------------------------------------------------------------------- mask -----
+mask name= "implant_mask" segments= {0.00e+00<um> 0.425<um> 0.575<um> 1.00<um>}
+------------------------------------------------------------------------------
+------------------------------------------------------------------- etch -----
+etch time= 1.00<min> mask= "implant_mask" rate= {0.170<um/min>} type= "anisotropic" material= {oxide}
+------------------------------------------------------------------------------
+Size of simulation domain in Z direction is 0.  Evaluating masks at z==0.0
+Increasing dimension 1 -> 2
+Creating structure... 
+Points: 1554
+Nodes: 1638
+Edges: 4553
+Faces: 2920
+Volumes: 0
+
+Copying data...done
+
+Recreating refinements to take into account updated simulation dimension.
+Done recreating refinements.
+
+MGoals time: 0.206969
+
+Updating sprocess mesh before Etch/Depo relax.
+Generating SnMesh mesh... 
+SnMesh time: 0.439934
+
+========================  tri-grid quality (Gas exluded)  ========================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %    4   5   5   5   5   4   5   5   5  27  .   .                         
+---------------------------------------------------------------------------------
+minAngle: 1.1775  maxAngle: 109.114
+nVerts = 2666  nTris = 5138  nMats = 4
+max connectivity (tris per node): 8
+bmin: 1.2 0
+bmax: -0.250015 1
+min edgeLength: 0.00102771  [near (0.000513853 0.95)]
+min volume: 1.21225e-06  max volume: 0.00241535  Total volume: 1.3275
+bbox  volume: 1.45002
+Are all boundaries on bbox? true
+=================================================================================
+Initializing sprocess...time: 0.137978
+Interpolating...elapsed time: 0.11
+Mechanics:         0s   to         1s   step    :         1s   temp: 26.9C->26.9C
+
+------------------------------------------------------------------- grid -----
+grid remesh
+------------------------------------------------------------------------------
+Generating SnMesh mesh... 
+SnMesh time: 0.439933
+
+========================  tri-grid quality (Gas exluded)  ========================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %    4   5   5   5   5   4   5   5   5  27  .   .                         
+---------------------------------------------------------------------------------
+minAngle: 1.1775  maxAngle: 109.114
+nVerts = 2666  nTris = 5138  nMats = 4
+max connectivity (tris per node): 8
+bmin: 1.2 0
+bmax: -0.250015 1
+min edgeLength: 0.00102771  [near (0.000513853 0.95)]
+min volume: 1.21225e-06  max volume: 0.00241535  Total volume: 1.3275
+bbox  volume: 1.45002
+Are all boundaries on bbox? true
+=================================================================================
+Initializing sprocess...time: 0.129981
+Interpolating...elapsed time: 0.08
+----------------------------------------------------------------- struct -----
+struct tdr= "1_pn_oxide_etch_before_implant"
+------------------------------------------------------------------------------
+Points: 2666
+Nodes: 2914
+Edges: 8043
+Faces: 5138
+Volumes: 0
+
+Writing file 1_pn_oxide_etch_before_implant_fps.tdr...done.
+
+-------------------------------------------------------------- refinebox -----
+refinebox Silicon min= {0.00e+00<um> 0.400<um>} max= {0.200<um> 0.600<um>} xrefine= {0.0100<um> 0.0100<um> 0.0100<um>} yrefine= {0.0100<um> 0.0100<um> 0.0100<um>}
+------------------------------------------------------------------------------
+------------------------------------------------------------------- grid -----
+grid remesh
+------------------------------------------------------------------------------
+Generating SnMesh mesh... 
+SnMesh time: 0.673897
+
+========================  tri-grid quality (Gas exluded)  ========================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %    3   3   3   3  13  13   3   4   4  28  .   .   .                     
+---------------------------------------------------------------------------------
+minAngle: 1.1775  maxAngle: 115.986
+nVerts = 3913  nTris = 7632  nMats = 4
+max connectivity (tris per node): 8
+bmin: 1.2 0
+bmax: -0.250015 1
+min edgeLength: 0.00102771  [near (0.000513853 1)]
+min volume: 1.21225e-06  max volume: 0.00241535  Total volume: 1.3275
+bbox  volume: 1.45002
+Are all boundaries on bbox? true
+=================================================================================
+Initializing sprocess...time: 0.152977
+Interpolating...elapsed time: 0.11
+---------------------------------------------------------------- implant -----
+implant energy= 20.00<keV> dose= 5.00e+14<cm-2> tilt= 0.00e+00<degree> Arsenic
+------------------------------------------------------------------------------
+No substrate defined (implant).  Skip updateStrain.
+Species           =  Arsenic
+Dataset           =  Arsenic
+Energy            =  20keV
+Dose (WaferDose)  =  5e+14/cm2
+BeamDose          =  5e+14/cm2
+BeamDose2D        =  5e+14/cm2
+Tilt              =   0deg
+Tilt2D            =   0deg
+Rotation          = 270deg
+Slice angle       = -90deg
+Temperature       = 300.00K
+LeftBoundary      = Extend
+RightBoundary     = Extend
+
+Total implant time:    2.21sec
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Computing finite volumes...done
+
+ Dose in:   Silicon_1   Oxide_1.1   Oxide_1.2       Total
+              Silicon       Oxide       Oxide
+    Boron  1.2000e+13  0.0000e+00  0.0000e+00  1.2000e+13
+  Arsenic  7.4032e+13  2.1216e+14  2.1308e+14  4.9927e+14
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+No substrate defined (implant).  Skip updateStrain.
+---------------------------------------------------------------- diffuse -----
+diffuse time= 1.20<s> temperature= 1060.00<C>
+------------------------------------------------------------------------------
+---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---
+Anneal step:	Time=1.2s, Ramp rate=0C/s, Temperature=1060.0C
+Temperature > minT. Diffusion: On   Reaction: Off   Assembly: Serial
+Mechanics:         0s   to    0.0001s   step    :    0.0001s   temp: 1060.0C
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
+Initializing:  
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
+Initialization is done.
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
+Diffusion:         0s   to    0.0001s   step (s):    0.0001s   temp: 1060.0C
+Mechanics:    0.0001s   to 0.0001661s   step    : 6.609e-05s   temp: 1060.0C
+Diffusion:    0.0001s   to 0.0001661s   step (s): 6.609e-05s   temp: 1060.0C
+Mechanics: 0.0001661s   to 0.0002586s   step    : 9.251e-05s   temp: 1060.0C
+Diffusion: 0.0001661s   to 0.0002586s   step (s): 9.251e-05s   temp: 1060.0C
+Mechanics: 0.0002586s   to 0.0004338s   step    : 0.0001752s   temp: 1060.0C
+Diffusion: 0.0002586s   to 0.0004338s   step (s): 0.0001752s   temp: 1060.0C
+Mechanics: 0.0004338s   to 0.0007843s   step    : 0.0003504s   temp: 1060.0C
+Diffusion: 0.0004338s   to 0.0007843s   step (s): 0.0003504s   temp: 1060.0C
+Mechanics: 0.0007843s   to  0.001452s   step    : 0.0006677s   temp: 1060.0C
+Diffusion: 0.0007843s   to  0.001452s   step (s): 0.0006677s   temp: 1060.0C
+Mechanics:  0.001452s   to  0.002367s   step    : 0.0009151s   temp: 1060.0C
+Diffusion:  0.001452s   to  0.002367s   step (s): 0.0009151s   temp: 1060.0C
+Mechanics:  0.002367s   to  0.003543s   step    :  0.001176s   temp: 1060.0C
+Diffusion:  0.002367s   to  0.003543s   step (s):  0.001176s   temp: 1060.0C
+Mechanics:  0.003543s   to  0.005212s   step    :  0.001669s   temp: 1060.0C
+Diffusion:  0.003543s   to  0.005212s   step (s):  0.001669s   temp: 1060.0C
+Mechanics:  0.005212s   to  0.007796s   step    :  0.002584s   temp: 1060.0C
+Diffusion:  0.005212s   to  0.007796s   step (s):  0.002584s   temp: 1060.0C
+Mechanics:  0.007796s   to    0.0123s   step    :  0.004503s   temp: 1060.0C
+Diffusion:  0.007796s   to    0.0123s   step (s):  0.004503s   temp: 1060.0C
+Mechanics:    0.0123s   to   0.01945s   step    :  0.007147s   temp: 1060.0C
+Diffusion:    0.0123s   to   0.01945s   step (s):  0.007147s   temp: 1060.0C
+Mechanics:   0.01945s   to   0.02879s   step    :  0.009344s   temp: 1060.0C
+Diffusion:   0.01945s   to   0.02879s   step (s):  0.009344s   temp: 1060.0C
+Mechanics:   0.02879s   to   0.03753s   step    :  0.008738s   temp: 1060.0C
+Diffusion:   0.02879s   to   0.03753s   step (s):  0.008738s   temp: 1060.0C
+Mechanics:   0.03753s   to   0.05085s   step    :   0.01333s   temp: 1060.0C
+Diffusion:   0.03753s   to   0.05085s   step (s):   0.01333s   temp: 1060.0C
+Mechanics:   0.05085s   to   0.07221s   step    :   0.02136s   temp: 1060.0C
+Diffusion:   0.05085s   to   0.07221s   step (s):   0.02136s   temp: 1060.0C
+Mechanics:   0.07221s   to   0.09652s   step    :   0.02431s   temp: 1060.0C
+Diffusion:   0.07221s   to   0.09652s   step (s):   0.02431s   temp: 1060.0C
+Mechanics:   0.09652s   to     0.113s   step    :   0.01648s   temp: 1060.0C
+Diffusion:   0.09652s   to     0.113s   step (s):   0.01648s   temp: 1060.0C
+Mechanics:     0.113s   to    0.1304s   step    :    0.0174s   temp: 1060.0C
+Diffusion:     0.113s   to    0.1304s   step (s):    0.0174s   temp: 1060.0C
+Mechanics:    0.1304s   to    0.1482s   step    :   0.01778s   temp: 1060.0C
+Diffusion:    0.1304s   to    0.1482s   step (s):   0.01778s   temp: 1060.0C
+Mechanics:    0.1482s   to    0.1671s   step    :   0.01892s   temp: 1060.0C
+Diffusion:    0.1482s   to    0.1671s   step (s):   0.01892s   temp: 1060.0C
+Mechanics:    0.1671s   to    0.1874s   step    :   0.02028s   temp: 1060.0C
+Diffusion:    0.1671s   to    0.1874s   step (s):   0.02028s   temp: 1060.0C
+Mechanics:    0.1874s   to    0.2108s   step    :   0.02344s   temp: 1060.0C
+Diffusion:    0.1874s   to    0.2108s   step (s):   0.02344s   temp: 1060.0C
+Mechanics:    0.2108s   to    0.2463s   step    :   0.03551s   temp: 1060.0C
+Diffusion:    0.2108s   to    0.2463s   step (s):   0.03551s   temp: 1060.0C
+Mechanics:    0.2463s   to    0.3173s   step    :   0.07101s   temp: 1060.0C
+Diffusion:    0.2463s   to    0.3173s   step (s):   0.07101s   temp: 1060.0C
+Mechanics:    0.3173s   to    0.4594s   step    :     0.142s   temp: 1060.0C
+Diffusion:    0.3173s   to    0.4594s   step (s):     0.142s   temp: 1060.0C
+Mechanics:    0.4594s   to    0.7434s   step    :     0.284s   temp: 1060.0C
+Diffusion:    0.4594s   to    0.7434s   step (s):     0.284s   temp: 1060.0C
+Mechanics:    0.7434s   to       1.2s   step    :    0.4566s   temp: 1060.0C
+Diffusion:    0.7434s   to       1.2s   step (s):    0.4566s   temp: 1060.0C
+
+Elapsed time for diffuse 62.84s
+----------------------------------------------------------------- struct -----
+struct tdr= "2_pn_after_implant_diffusion"
+------------------------------------------------------------------------------
+Points: 3913
+Nodes: 4185
+Edges: 11808
+Faces: 7632
+Volumes: 0
+
+Writing file 2_pn_after_implant_diffusion_fps.tdr...done.
+
+------------------------------------------------------------------- etch -----
+etch time= 1.00<min> rate= {0.170<um/min>} type= "isotropic" material= {Oxide}
+------------------------------------------------------------------------------
+MGoals time: 0.624905
+
+Updating sprocess mesh before Etch/Depo relax.
+Generating SnMesh mesh... 
+SnMesh time: 0.538918
+
+========================  tri-grid quality (Gas exluded)  ========================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %    1   3   2   3  17  17   3   2   3  27                                
+---------------------------------------------------------------------------------
+minAngle: 1.1775  maxAngle: 90
+nVerts = 2835  nTris = 5520  nMats = 2
+max connectivity (tris per node): 7
+bmin: 1.2 0
+bmax: -0.250015 1
+min edgeLength: 0.00102771  [near (0.000513853 0.95)]
+min volume: 3.21158e-06  max volume: 0.00241535  Total volume: 1.2
+bbox  volume: 1.45002
+Are all boundaries on bbox? true
+=================================================================================
+Initializing sprocess...time: 0.116982
+Interpolating...elapsed time: 0.13
+Mechanics:         0s   to         1s   step    :         1s   temp: 26.9C->26.9C
+
+------------------------------------------------------------------- grid -----
+grid remesh
+------------------------------------------------------------------------------
+Generating SnMesh mesh... 
+SnMesh time: 0.559915
+
+========================  tri-grid quality (Gas exluded)  ========================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %    1   3   2   3  17  17   3   2   3  27                                
+---------------------------------------------------------------------------------
+minAngle: 1.1775  maxAngle: 90
+nVerts = 2835  nTris = 5520  nMats = 2
+max connectivity (tris per node): 7
+bmin: 1.2 0
+bmax: -0.250015 1
+min edgeLength: 0.00102771  [near (0.000513853 0.95)]
+min volume: 3.21158e-06  max volume: 0.00241535  Total volume: 1.2
+bbox  volume: 1.45002
+Are all boundaries on bbox? true
+=================================================================================
+Initializing sprocess...time: 0.118982
+Interpolating...elapsed time: 0.1
+----------------------------------------------------------------- struct -----
+struct tdr= "3_pn_after_imp_diff_oxide_etch"
+------------------------------------------------------------------------------
+Points: 2835
+Nodes: 2945
+Edges: 8462
+Faces: 5520
+Volumes: 0
+
+Writing file 3_pn_after_imp_diff_oxide_etch_fps.tdr...done.
+
+---------------------------------------------------------------- deposit -----
+deposit time= 1.00<min> type= "isotropic" rate= {0.0700<um/min>} material= {Aluminum}
+------------------------------------------------------------------------------
+MGoals time: 0.429934
+
+Updating sprocess mesh before Etch/Depo relax.
+Generating SnMesh mesh... 
+SnMesh time: 0.540918
+
+========================  tri-grid quality (Gas exluded)  ========================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %    2   4   4   5  17  17   5   5   4  34          .                     
+---------------------------------------------------------------------------------
+minAngle: 1.1775  maxAngle: 115.986
+nVerts = 2862  nTris = 5572  nMats = 3
+max connectivity (tris per node): 7
+bmin: 1.2 0
+bmax: -0.250015 1
+min edgeLength: 0.00102771  [near (0.000513853 0.95)]
+min volume: 3.21158e-06  max volume: 0.00241535  Total volume: 1.27
+bbox  volume: 1.45002
+Are all boundaries on bbox? true
+=================================================================================
+Initializing sprocess...time: 0.145978
+Interpolating...elapsed time: 0.12
+Mechanics:         0s   to         1s   step    :         1s   temp: 26.9C->26.9C
+------------------------------------------------------------------- grid -----
+grid remesh
+------------------------------------------------------------------------------
+Generating SnMesh mesh... 
+SnMesh time: 0.548917
+
+========================  tri-grid quality (Gas exluded)  ========================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %    2   4   4   5  17  17   5   5   4  34          .                     
+---------------------------------------------------------------------------------
+minAngle: 1.1775  maxAngle: 115.986
+nVerts = 2862  nTris = 5572  nMats = 3
+max connectivity (tris per node): 7
+bmin: 1.2 0
+bmax: -0.250015 1
+min edgeLength: 0.00102771  [near (0.000513853 0.95)]
+min volume: 3.21158e-06  max volume: 0.00241535  Total volume: 1.27
+bbox  volume: 1.45002
+Are all boundaries on bbox? true
+=================================================================================
+Initializing sprocess...time: 0.144979
+Interpolating...elapsed time: 0.12
+----------------------------------------------------------------- struct -----
+struct tdr= "4_pn_after_metal_depos"
+------------------------------------------------------------------------------
+Points: 2862
+Nodes: 3026
+Edges: 8593
+Faces: 5572
+Volumes: 0
+
+Writing file 4_pn_after_metal_depos_fps.tdr...done.
+
+------------------------------------------------------------------- mask -----
+mask name= "contacts_mask1" left= 0.425<um> right= 0.575<um>
+------------------------------------------------------------------------------
+------------------------------------------------------------------- etch -----
+etch time= 1.00<min> mask= "contacts_mask1" rate= {0.0800<um/min>} type= "anisotropic" material= {Aluminum}
+------------------------------------------------------------------------------
+MGoals time: 0.466929
+
+Updating sprocess mesh before Etch/Depo relax.
+Generating SnMesh mesh... 
+SnMesh time: 0.554916
+
+========================  tri-grid quality (Gas exluded)  ========================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %    1   3   3   4  17  17   4   4   3  29          .                     
+---------------------------------------------------------------------------------
+minAngle: 1.1775  maxAngle: 115.986
+nVerts = 2842  nTris = 5534  nMats = 3
+max connectivity (tris per node): 7
+bmin: 1.2 0
+bmax: -0.250015 1
+min edgeLength: 0.00102771  [near (0.000513853 0.95)]
+min volume: 3.21158e-06  max volume: 0.00241535  Total volume: 1.2105
+bbox  volume: 1.45002
+Are all boundaries on bbox? true
+=================================================================================
+Initializing sprocess...time: 0.152976
+Interpolating...elapsed time: 0.13
+Mechanics:         0s   to         1s   step    :         1s   temp: 26.9C->26.9C
+
+------------------------------------------------------------------- grid -----
+grid remesh
+------------------------------------------------------------------------------
+Generating SnMesh mesh... 
+SnMesh time: 0.575912
+
+========================  tri-grid quality (Gas exluded)  ========================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %    1   3   3   4  17  17   4   4   3  29          .                     
+---------------------------------------------------------------------------------
+minAngle: 1.1775  maxAngle: 115.986
+nVerts = 2842  nTris = 5534  nMats = 3
+max connectivity (tris per node): 7
+bmin: 1.2 0
+bmax: -0.250015 1
+min edgeLength: 0.00102771  [near (0.000513853 0.95)]
+min volume: 3.21158e-06  max volume: 0.00241535  Total volume: 1.2105
+bbox  volume: 1.45002
+Are all boundaries on bbox? true
+=================================================================================
+Initializing sprocess...time: 0.162975
+Interpolating...elapsed time: 0.13
+---------------------------------------------------------------- contact -----
+contact Aluminum name= "n" adjacent.material= "Ambient" xlo= -0.0710<um> xhi= -0.0690<um> ylo= 0.425<um> yhi= 0.575<um> box
+------------------------------------------------------------------------------
+---------------------------------------------------------------- contact -----
+contact Silicon name= "p" adjacent.material= "Ambient" xlo= 1.19<um> xhi= 1.21<um> ylo= 0.00e+00<um> yhi= 1.00<um> box
+------------------------------------------------------------------------------
+----------------------------------------------------------------- struct -----
+struct tdr= "5_pn_final_structure"
+------------------------------------------------------------------------------
+Points: 2842
+Nodes: 3016
+Edges: 8543
+Faces: 5534
+Volumes: 0
+
+Interpolating...elapsed time: 0.08
+Writing file 5_pn_final_structure_fps.tdr...done.
+
+------------------------------------------------------------------------------
+Summary:
+Anneal time stepping:
+  reaction/mechanics steps=28 minimum=1.0000e+38s maximum=1.0000e+38s
+  diffusion steps=28 minimum=6.6095e-05s maximum=0.456598s
+Edge/Face swapping:
+ calls=4 flips=0
+------------------------------------------------------------------------------
+
+Elapsed Time:	00:01:34
+User Time:	00:01:32
+CPU Time:	00:01:28
+
+Detailed CPU time report:
+
+32.05 sec (36.8%) Solver(PDE). (272 calls).
+7.62 sec (8.8%) Store nodal values: Serial. (3474 calls).
+6.51 sec (7.5%) Serial mode assembly. (386 calls).
+5.85 sec (6.7%) Diffusion step time. (28 calls).
+5.19 sec (6.0%) Mechanics step (28 calls).
+4.85 sec (5.6%) SnMesh meshing (11 calls).
+3.17 sec (3.6%) implant command (226 calls).
+2.92 sec (3.4%) struct command (5 calls).
+1.92 sec (2.2%) reaction command (42 calls).
+1.83 sec (2.1%) sel command (1176 calls).
+1.82 sec (2.1%) mgoals (5 calls).
+1.43 sec (1.6%) Solver(Mechanics) (33 calls).
+1.02 sec (1.2%) mater command (5011 calls).
+1.00 sec (1.2%) grid command (6 calls).
+0.98 sec (1.1%) solution command (9137 calls).
+0.98 sec (1.1%) Mechanics assembly (serial mode) (33 calls).
+0.94 sec (1.1%) etch command (3 calls).
+0.90 sec (1.0%) Bulk Interpolation (12 calls).
+0.86 sec (1.0%) term command (979 calls).
+0.75 sec (0.9%) Transfer from mesher 1D/2D (11 calls).
+0.74 sec (0.9%) Other Program Parts (1 calls).
+0.73 sec (0.8%) Total time spent in Symbolic. (2 calls).
+0.71 sec (0.8%) FieldServer copy (12 calls).
+0.52 sec (0.6%) MakeInterfaces (25 calls).
+0.47 sec (0.5%) deposit command (2 calls).
+
+Detailed elapsed time report:
+
+32.08 sec (36.4%) Solver(PDE). (272 calls).
+7.61 sec (8.6%) Store nodal values: Serial. (3474 calls).
+6.54 sec (7.4%) Serial mode assembly. (386 calls).
+5.85 sec (6.6%) Diffusion step time. (28 calls).
+5.21 sec (5.9%) Mechanics step (28 calls).
+4.86 sec (5.5%) SnMesh meshing (11 calls).
+3.79 sec (4.3%) struct command (5 calls).
+3.17 sec (3.6%) implant command (226 calls).
+1.92 sec (2.2%) reaction command (42 calls).
+1.85 sec (2.1%) sel command (1176 calls).
+1.83 sec (2.1%) mgoals (5 calls).
+1.43 sec (1.6%) Solver(Mechanics) (33 calls).
+1.01 sec (1.1%) mater command (5011 calls).
+1.01 sec (1.1%) grid command (6 calls).
+1.01 sec (1.1%) solution command (9137 calls).
+0.98 sec (1.1%) Mechanics assembly (serial mode) (33 calls).
+0.95 sec (1.1%) etch command (3 calls).
+0.91 sec (1.0%) Bulk Interpolation (12 calls).
+0.86 sec (1.0%) term command (979 calls).
+0.75 sec (0.9%) Other Program Parts (1 calls).
+0.75 sec (0.8%) Transfer from mesher 1D/2D (11 calls).
+0.73 sec (0.8%) Total time spent in Symbolic. (2 calls).
+0.71 sec (0.8%) FieldServer copy (12 calls).
+0.53 sec (0.6%) MakeInterfaces (25 calls).
+0.48 sec (0.5%) deposit command (2 calls).
+
+
+                          [1mSee ya' later Alagator![0m
+

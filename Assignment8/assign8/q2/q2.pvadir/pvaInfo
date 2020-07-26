@@ -1,0 +1,18 @@
+libepva built by carlgu synmake_pva_build  on Wed Sep 25 16:59:49 PDT 2019 - p4:5837255
+
+======================================
+HVA Verilog-A Modules (filename:line#)
+--------------------------------------
+ N  simple_mos (q2.va:4)
+--------------------------------------
+Total 1 module(s) loaded.
+======================================
+
+======================================
+Lists of Used Modules during GMD Setup
+--------------------------------------
+    simple_mos
+--------------------------------------
+Total 1 module(s) used.
+======================================
+

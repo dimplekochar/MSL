@@ -1,0 +1,42 @@
+
+Begin of pVA compiling on Sat Nov  2 02:19:17 2019	GTM/In-use: 0.2500/0.1967 MB
+
+Parsing 'q2.va'
+Parsing include file '/usr/local/Software/Hspice/hspice/P-2019.06-SP1-1/hspice/include/disciplines.vams'
+Parsing include file '/usr/local/Software/Hspice/hspice/P-2019.06-SP1-1/hspice/include/constants.vams'
+
+End of pVA compiling on Sat Nov  2 02:19:17 2019	GTM/In-use: 0.3750/0.2945 MB
+
+
+End of build pVA DB on Sat Nov  2 02:19:17 2019	GTM/In-use: 1.5000/1.4413 MB
+
+*pvaI* Module (simple_mos): 4 unexpanded port, 0 init, 3 behav, 2 contrib, 49/1 expr(s)
+*pvaI*        Has DIS(ST), 0/0 afCount, 0 MT, dlg, IO(0/0/1/0)
+*pvaI*        0 gmdIsThreadSafe (ST)
+*pvaI*        0 const-G and 0 const-C, Has switchBranch, 22 bypassOpt, 0 bus2scalar, 0 vwb
+*pvaI*        set_va_exp = 80 [80.0, 704.0] set by default
+*pvaW*        variable 'P_EPSSI' declared but not used in RHS, deleted (q2.va:19)
+*pvaW*                   To relax this rule, use 'setenv PVA_KEEP_VARS 1' to keep variables for probing.
+*pvaW*        variable 'P_EPS' declared but not used in RHS, deleted (q2.va:20)
+*pvaW*        variable 'Vt_phif' declared but not used in RHS, deleted (q2.va:21)
+*pvaW*        variable 'PHI' declared but not used in RHS, deleted (q2.va:22)
+*pvaW*        variable 'GAMMA' declared but not used in RHS, deleted (q2.va:22)
+*pvaW*        variable 'COX' declared but not used in RHS, deleted (q2.va:22)
+*pvaW*        variable 'PHI_F' declared but not used in RHS, deleted (q2.va:22)
+*pvaW*        variable 'Ni' declared but not used in RHS, deleted (q2.va:23)
+*pvaW*        variable 'q' declared but not used in RHS, deleted (q2.va:24)
+*pvaI*        port 'b' at 4 declared, but not used
+*pvaI*        generated 0 flow node(s) during compilation.
+
+End of pVA genC on Sat Nov  2 02:19:18 2019	GTM/In-use: 1.8750/1.7049 MB
+
+*pvaI* #### Total 431 line-size(s), 49/1 expr(s), 2 contr(s), 0 init(s), 3 behav(s), 4 port(s)
+
+Generating q2.pvadir/pvaRTL_linux64.so
+
+
+End of submitting pVA q2.pvadir/pvaRTL.mak on Sat Nov  2 02:19:18 2019	GTM/In-use: 1.8750/1.7050 MB
+
+
+End of pVA elaboration on Sat Nov  2 02:19:18 2019	GTM/In-use: 1.8750/1.4540 MB
+

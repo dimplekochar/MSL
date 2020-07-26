@@ -1,0 +1,41 @@
+load_file /home/users/EE735_2019/EE735_6/dimple/assign6/q1/0.0V_neg_dd_des.tdr
+create_plot -dataset 0.0V_neg_dd_des
+select_plots {Plot_0.0V_neg_dd_des}
+#-> Plot_0.0V_neg_dd_des
+#-> Plot_0.0V_neg_dd_des
+#-> 0.0V_neg_dd_des
+set_material_prop {Silicon} -geom 0.0V_neg_dd_des -show_mesh
+#-> 0
+export_view /home/users/EE735_2019/EE735_6/dimple/assign6/q1/q1mesh.png -plots {Plot_0.0V_neg_dd_des} -format PNG
+#-> 0
+create_cutline -plot Plot_0.0V_neg_dd_des -type y -at 0.898438
+select_plots {Plot_1}
+#-> Plot_1
+#-> C1(0.0V_neg_dd_des)
+remove_curves {Curve_1} -plot Plot_1
+#-> Curve_1
+create_curve -plot Plot_1 -dataset {C1(0.0V_neg_dd_des)} -axisX "X" -axisY "ElectricField-X"
+#-> Curve_1
+create_curve -plot Plot_1 -dataset {C1(0.0V_neg_dd_des)} -axisX "X" -axisY "Abs(ElectricField-V)"
+#-> Curve_2
+zoom_plot -plot Plot_1 -reset
+export_view /home/users/EE735_2019/EE735_6/dimple/assign6/q1/q1ef.png -plots {Plot_1} -format PNG
+#-> 0
+zoom_plot -plot Plot_1 -window {1.71226 -152133 2.34768 106493 0 0}
+zoom_plot -plot Plot_1 -window {1.93561 -38242.6 2.07585 32938.9 0 0}
+zoom_plot -plot Plot_1 -reset
+zoom_plot -plot Plot_1 -window {1.82616 -115621 2.2218 103450 0 0}
+export_view /home/users/EE735_2019/EE735_6/dimple/assign6/q1/q1efz.png -plots {Plot_1} -format PNG
+#-> 0
+create_curve -plot Plot_1 -dataset {C1(0.0V_neg_dd_des)} -axisX "X" -axisY "hDensity"
+#-> Curve_3
+create_curve -plot Plot_1 -dataset {C1(0.0V_neg_dd_des)} -axisX "X" -axisY "eDensity"
+#-> Curve_4
+remove_curves {Curve_1 Curve_2} -plot Plot_1
+#-> Curve_1 Curve_2
+zoom_plot -plot Plot_1 -reset
+zoom_plot -plot Plot_1 -window {0.801626 6.76606e+17 0.968564 8.73394e+17 0 0}
+zoom_plot -plot Plot_1 -reset
+export_view /home/users/EE735_2019/EE735_6/dimple/assign6/q1/q1dens.png -plots {Plot_1} -format PNG -overwrite
+#-> 0
+exit

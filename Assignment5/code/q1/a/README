@@ -1,0 +1,18 @@
+length is along x
+thickness y width z
+
+DOUBT
+question says 2D simulation
+ignore width? i.e keep z coordinates=0
+or make 2D mesh of D device at z=0 plane
+Devesh:
+no clue. maine abhi l= 5 and W = 1 kar ke simulate kar raha hu 
+
+DOUBT
+work function of schottky?
+phib+kt/qln(NA/ni)?
+Devesh:
+I think unhone diya hai na 0.3 ev
+
+
+

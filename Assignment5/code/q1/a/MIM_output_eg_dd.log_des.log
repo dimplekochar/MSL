@@ -1,0 +1,4837 @@
+****************************************************************************
+***                           Sentaurus Device                           ***
+***                          Version G-2012.06                           ***
+***                         (1.5, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1994-2012                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+	Running on machine with the following configuration:
+	Host Name: mcl21
+	Operating System: Linux rel. 2.6.32-696.1.1.el6.x86_64 ver. #1 SMP Tue Apr 11 17:13:24 UTC 2017
+	Machine Type: x86_64
+	Process ID: 1231
+	Number of processors: 16
+	Domain Name: MCL-LAB
+	Date: Sat Oct  5 22:50:05 2019  (IST)
+
+Sat Oct  5 22:50:05 2019: checked out 1 Dessis license(s)
+Sat Oct  5 22:50:05 2019: checked out 1 sdevice license(s)
+Parsing circuit file /usr/local/Softwares/Sentaurus/Sentaurus_vG_2012.06/bin/../tcad/current/amd64/lib/sdevice/bs_psource.ccf
+Parsing circuit file /usr/local/Softwares/Sentaurus/Sentaurus_vG_2012.06/bin/../tcad/current/amd64/lib/sdevice/sd_hb_vsource2.ccf
+Parsing circuit file /usr/local/Softwares/Sentaurus/Sentaurus_vG_2012.06/bin/../tcad/current/amd64/lib/sdevice/sd_hb_sRL.ccf
+Parsing circuit file /usr/local/Softwares/Sentaurus/Sentaurus_vG_2012.06/bin/../tcad/current/amd64/lib/sdevice/sd_hb_vsource.ccf
+Parsing circuit file /usr/local/Softwares/Sentaurus/Sentaurus_vG_2012.06/bin/../tcad/current/amd64/lib/sdevice/sd_SRL1.ccf
+Parsing circuit file /usr/local/Softwares/Sentaurus/Sentaurus_vG_2012.06/bin/../tcad/current/amd64/lib/sdevice/sd_hb_isource.ccf
+Parsing circuit file /usr/local/Softwares/Sentaurus/Sentaurus_vG_2012.06/bin/../tcad/current/amd64/lib/sdevice/sd_hb_isource2.ccf
+Parsing circuit file /usr/local/Softwares/Sentaurus/Sentaurus_vG_2012.06/bin/../tcad/current/amd64/lib/sdevice/sd_hb_pGC.ccf
+Parsing circuit file /usr/local/Softwares/Sentaurus/Sentaurus_vG_2012.06/bin/../tcad/current/amd64/lib/scm/MOS_harness.ccf
+Loading shared object file /usr/local/Softwares/Sentaurus/Sentaurus_vG_2012.06/bin/../tcad/current/amd64/lib/scm/MOS_harness.so.amd64
+Loading shared object file /usr/local/Softwares/Sentaurus/Sentaurus_vG_2012.06/bin/../tcad/current/amd64/lib/sdevice/sd_hb_pGC.so.amd64
+Loading shared object file /usr/local/Softwares/Sentaurus/Sentaurus_vG_2012.06/bin/../tcad/current/amd64/lib/sdevice/sd_hb_isource2.so.amd64
+Loading shared object file /usr/local/Softwares/Sentaurus/Sentaurus_vG_2012.06/bin/../tcad/current/amd64/lib/sdevice/sd_hb_isource.so.amd64
+Loading shared object file /usr/local/Softwares/Sentaurus/Sentaurus_vG_2012.06/bin/../tcad/current/amd64/lib/sdevice/sd_SRL1.so.amd64
+Loading shared object file /usr/local/Softwares/Sentaurus/Sentaurus_vG_2012.06/bin/../tcad/current/amd64/lib/sdevice/sd_hb_vsource.so.amd64
+Loading shared object file /usr/local/Softwares/Sentaurus/Sentaurus_vG_2012.06/bin/../tcad/current/amd64/lib/sdevice/sd_hb_sRL.so.amd64
+Loading shared object file /usr/local/Softwares/Sentaurus/Sentaurus_vG_2012.06/bin/../tcad/current/amd64/lib/sdevice/sd_hb_vsource2.so.amd64
+Loading shared object file /usr/local/Softwares/Sentaurus/Sentaurus_vG_2012.06/bin/../tcad/current/amd64/lib/sdevice/bs_psource.so.amd64
+
+Input source: q1_sdevice.cmd
+
+===============================
+
+Output file: MIM_output_eg_dd.log_des.log
+
+
+GlobalParameter {
+}
+no ACExtract file
+
+PMIPath file: /usr/local/Softwares/Sentaurus/Sentaurus_vG_2012.06/bin/../tcad/current/amd64/lib/sdevice-20.0.5 /usr/local/Softwares/Sentaurus/Sentaurus_vG_2012.06/bin/../tcad/current/amd64/lib/sdevice
+
+CMIPath file: /usr/local/Softwares/Sentaurus/Sentaurus_vG_2012.06/bin/../tcad/current/amd64/lib/sdevice /usr/local/Softwares/Sentaurus/Sentaurus_vG_2012.06/bin/../tcad/current/amd64/lib/scm
+
+SPICEPath file: /usr/local/Softwares/Sentaurus/Sentaurus_vG_2012.06/bin/../tcad/current/lib/sdevice-20.0.5/spice
+
+no DevicePath file
+
+no CIRCUITSAVENAME file
+
+no CIRCUITLOADNAME file
+
+Numerical parameters:
+  Absolute error : 
+    Poisson : 1.0000e-03
+    Electron : 1.0000e-05
+    Hole : 1.0000e-05
+    Photon-Rate-Equation : 1.0000e-07
+    Photon-Phase-Equation : 1.0000e-05
+    Rate-Stabilize-Equation : 1.0000e-07
+    QW-Scattering-Equations : 1.0000e-05
+    QW-eScattering-Equation : 1.0000e-05
+    QW-hScattering-Equation : 1.0000e-05
+    Optical Problem : 1.0000e-03
+    Wavelength : 1.0000e-03
+    Bandstructure : 1.0000e-03
+    EmissionTable : 1.0000e-03
+    DephasingRates : 1.0000e-03
+    Photon Recycling : 1.0000e-03
+    Electron-Temperature : 1.0000e-04
+    Hole-Temperature : 1.0000e-04
+    Lattice-Hole-Electron-Temperature : 1.0000e-03
+    Circuit : 1.0000e-03
+    TCircuit : 1.0000e-03
+    Contact : 1.0000e-03
+    TContact : 1.0000e-03
+    Continuation : 1.0000e-03
+    eLaplace : 1.0000e-03
+    hLaplace : 1.0000e-03
+    tLaplace : 1.0000e-03
+    MonteCarlo : 1.0000e-03
+    MCPoissonPDE : 1.0000e-03
+    eQuantumPotential : 1.0000e-03
+    hQuantumPotential : 1.0000e-03
+    quasi-fermi-potential : 1.0000e-03
+    ConductiveInsulator : 1.0000e-03
+    ContactAndConductiveInsulator : 1.0000e-03
+    SingletExciton : 1.0000e-05
+    eHopping : 1.0000e-03
+    hHopping : 1.0000e-03
+    HydrogenAtom : 1.0000e-03
+    HydrogenMolecule : 1.0000e-03
+    HydrogenIon : 1.0000e-03
+    HydrogenSiliconBondOccupation : 1.0000e-03
+    eSHEDistribution : 1.0000e-03
+    hSHEDistribution : 1.0000e-03
+  RelErrControl (Reference error): 
+    Poisson : 0.025852
+    Electron : 1.0000e+10
+    Hole : 1.0000e+10
+    Photon-Rate-Equation : 1.0000e-07
+    Photon-Phase-Equation : 1
+    Rate-Stabilize-Equation : 1.0000e-07
+    QW-Scattering-Equations : 1.0000e+10
+    QW-eScattering-Equation : 1.0000e+10
+    QW-hScattering-Equation : 1.0000e+10
+    Optical Problem : 1
+    Wavelength : 1
+    Bandstructure : 1
+    EmissionTable : 1
+    DephasingRates : 1
+    Photon Recycling : 1
+    Electron-Temperature : 3.0000e+02
+    Hole-Temperature : 3.0000e+02
+    Lattice-Hole-Electron-Temperature : 3.0000e+02
+    Circuit : 1
+    TCircuit : 1
+    Contact : 0.025852
+    TContact : 1
+    Continuation : 1
+    eLaplace : 1
+    hLaplace : 1
+    tLaplace : 1
+    MonteCarlo : 1
+    MCPoissonPDE : 1
+    eQuantumPotential : 0.025852
+    hQuantumPotential : 0.025852
+    quasi-fermi-potential : 0.025852
+    ConductiveInsulator : 1
+    ContactAndConductiveInsulator : 1
+    SingletExciton : 1.0000e+10
+    eHopping : 0.025852
+    hHopping : 0.025852
+    HydrogenAtom : 1.0000e+10
+    HydrogenMolecule : 1.0000e+10
+    HydrogenIon : 1.0000e+10
+    HydrogenSiliconBondOccupation : 1
+    eSHEDistribution : 0.025852
+    hSHEDistribution : 0.025852
+  Relative error : 5 digits
+  Without checked transient error
+  Max. #iterations : 50
+  LineSearchDamping=1
+  #undamped iterations : 1000
+  No incomplete Newton
+  transient method : TR-BDF
+  Linear solver : blocked decomposition
+  Linear solver for AC analysis : blocked decomposition
+  Linear solver for SHEDistribution Model : Super
+  use linear extrapolation in transient/quasistationary computations
+  use complex supernodal in ac-analysis (if possible)
+  do not use smoothed PDE's in transient/quasistationary computations
+  Harmonic balance (HB) specifications:
+    Do not use MDFT mode in HB (i.e. one-tone and time domain assembly).
+    Do not use in HB the logarithm of densities.
+    No SolveSpectrum entries are specified.
+    Plot HB results for time domain interval (0.0000e+00 , 0.0000e+00) using 0 intervals.
+    HB Newton scaling parameters for rhs and update:
+      Equation                         :  RhsScale  : UpdateScale
+      Poisson                          :   1.00E+00 :   1.00E+00 
+      Electron                         :   1.00E-05 :   1.00E+00 
+      Hole                             :   1.00E-05 :   1.00E+00 
+      Photon-Rate-Equation             :   1.00E-05 :   1.00E+00 
+      Photon-Phase-Equation            :   1.00E+00 :   1.00E+00 
+      Rate-Stabilize-Equation          :   1.00E+00 :   1.00E+00 
+      QW-Scattering-Equations          :   1.00E-05 :   1.00E+00 
+      QW-eScattering-Equation          :   1.00E-05 :   1.00E+00 
+      QW-hScattering-Equation          :   1.00E-05 :   1.00E+00 
+      Optical Problem                  :   1.00E+00 :   1.00E+00 
+      Wavelength                       :   1.00E+00 :   1.00E+00 
+      Bandstructure                    :   1.00E+00 :   1.00E+00 
+      EmissionTable                    :   1.00E+00 :   1.00E+00 
+      DephasingRates                   :   1.00E+00 :   1.00E+00 
+      Photon Recycling                 :   1.00E+00 :   1.00E+00 
+      Electron-Temperature             :   1.00E+00 :   1.00E+00 
+      Hole-Temperature                 :   1.00E+00 :   1.00E+00 
+      Lattice-Hole-Electron-Temperature:   1.00E+00 :   1.00E+00 
+      Circuit                          :   1.00E-05 :   1.00E+00 
+      TCircuit                         :   1.00E+00 :   1.00E+00 
+      Contact                          :   1.00E-05 :   1.00E+00 
+      TContact                         :   1.00E+00 :   1.00E+00 
+      Continuation                     :   1.00E+00 :   1.00E+00 
+      eLaplace                         :   1.00E+00 :   1.00E+00 
+      hLaplace                         :   1.00E+00 :   1.00E+00 
+      tLaplace                         :   1.00E+00 :   1.00E+00 
+      MonteCarlo                       :   1.00E+00 :   1.00E+00 
+      MCPoissonPDE                     :   1.00E+00 :   1.00E+00 
+      eQuantumPotential                :   1.00E+00 :   1.00E+00 
+      hQuantumPotential                :   1.00E+00 :   1.00E+00 
+      quasi-fermi-potential            :   1.00E+00 :   1.00E+00 
+      ConductiveInsulator              :   1.00E+00 :   1.00E+00 
+      ContactAndConductiveInsulator    :   1.00E+00 :   1.00E+00 
+      SingletExciton                   :   1.00E+00 :   1.00E+00 
+      eHopping                         :   1.00E+00 :   1.00E+00 
+      hHopping                         :   1.00E+00 :   1.00E+00 
+      HydrogenAtom                     :   1.00E+00 :   1.00E+00 
+      HydrogenMolecule                 :   1.00E+00 :   1.00E+00 
+      HydrogenIon                      :   1.00E+00 :   1.00E+00 
+      HydrogenSiliconBondOccupation    :   1.00E+00 :   1.00E+00 
+      eSHEDistribution                 :   1.00E+00 :   1.00E+00 
+      hSHEDistribution                 :   1.00E+00 :   1.00E+00 
+    HB Newton correction parameters for values:
+      Equation                         :     Min    :  Variation 
+      Electron                         :   1.00E-20 :   1.00E+18 
+      Hole                             :   1.00E-20 :   1.00E+18 
+      Photon-Rate-Equation             :   0.00E+00 :   1.00E+18 
+      QW-eScattering-Equation          :   1.00E-20 :   1.00E+18 
+      QW-hScattering-Equation          :   1.00E-20 :   1.00E+18 
+      Electron-Temperature             :   1.00E+02 :   1.00E+18 
+      Hole-Temperature                 :   1.00E+02 :   1.00E+18 
+      Lattice-Hole-Electron-Temperature:   1.00E+02 :   1.00E+18 
+    
+    Traps are solved by decoupled mode.
+  use automatic coupling of contact/circuit stuff
+  Spice temperature: 3.0015e+02
+  Spice nominal temperature of parameter measurements: 3.0015e+02
+  Spice minimum conductance gmin: 1.0000e-12
+  Mininum |rhs| : 1.0000e-05
+  Maximum |rhs| : 1.0000e+15
+  Maximum |rhs| factor : 1.0000e+10
+  Lattice Temperature Range : (50,5.0000e+03)
+  Carrier Temperature Range : (10,8.0000e+04)
+  Simplified first order SHE of BTE will be solved
+  SHERefinementCutoff : 20
+  No user dependencies.
+  Number of assembly threads: 1 (default)
+  Number of solver threads: 1 (OMP_NUM_THREADS)
+  Thread stacksize: 1000000 bytes (default)
+  Go serial if not enough parallel licenses are available.
+
+Default device parameters:
+  Electrodes:
+    "n1contact" : 0.0000e+00 V (Ohmic), area factor : 1
+    "n2contact" : 0.0000e+00 V (Ohmic), area factor : 1
+  Files:
+    no Boundary file
+    Grid file: q1_msh.tdr
+    no Doping file
+    no MobilityDoping file
+    no Load file
+    no Save file
+    Plot file: MIM_plot_eg_dd.dat
+    no DevFieldsName file
+    no Path file
+    no optical-Generation file
+    no Lifetime file
+    no Temperature file
+    Current file: MIM_current_eg_dd.plt
+    no PMIUserFields file
+    no Extraction file
+    ModelParameters file: models.par
+    no Piezo file
+    no ModeGain file
+    no Optical emission table for stimulated emission file
+    no Optical emission table for spontaneous emission file
+    no Optical emission table for photon phase change coefficient file
+    no EmissionTable file
+    no DephasingRates file
+    no ASESpectrum file
+    no OpticalFarField file
+    no OpticalIntensityPattern file
+    no SaveOpticalIntensityPattern file
+    no OpticalXYAnglePattern file
+    no SaveOpticalXYAnglePattern file
+    no MonteCarloInput file
+    no MonteCarloOutput file
+    no ACPlot file
+-----------------------------------------------
+  Numerical parameters:
+    With exact derivatives
+    With avalanche derivatives
+    Using old wavelength search algorithm
+    Do not reinitialize quasi Fermi potentials in quasi-stationary simulations
+    Ignore ionization integral constraints
+    Without SRH per potential 
+    Without CDL per potential 
+    Without diagonal preconditioning
+    With Scharfetter-Gummel Discretization
+    Relative error : 5 digits
+    Delta for numerical tunnelling derivatives : 1.0000e-03
+    Do not compute breakdown paths and ionization integrals
+    QuasiFermiPotential is used for Contact Equation
+-----------------------------------------------
+-----------------------------------------------
+  Physical models:
+    Without incomplete ionization
+    Use Si parameters
+    TATNonlocalPathNC = 0.0000e+00
+    With SRH-Recombination
+      Without field dependent lifetimes
+      Without doping dependent lifetimes
+      Without temperature dependent lifetimes
+    Without CDL-Recombination
+    With optical generation computation 
+    Without Band-to-Band-Tunneling
+    With Auger-Recombination (without Generation)
+    Without Radiative Recombination
+    Without Surface-Recombination
+    Without Trap-Assisted-Auger-Recombination
+    PMI recombination models: none
+  Without thermal resistance interfaces
+  Without Piezo
+  Without Anisotropic Material Properties
+  Without Avalanche-Generation 
+  Without Alpha Particle
+  Without Heavy Ion
+  Without polarization
+  Volume charge density: 0.0000e+00 cm^-3
+  Device Temperature = 3.0000e+02 K
+  Electron Quasi Fermi Potential: 0.0000e+00 V
+  Hole Quasi Fermi Potential: 0.0000e+00 V
+  Without MagneticField
+  With SingletExciton Barrier Type
+  Intrinsic density models:
+    default bandgap model
+    Bandgap narrowing model: Slotboom with bandgap narrowing (no Fermi)
+  default affinity model
+  default effective mass model
+  Electron mobility:
+    no Doping dependence (using constant mobility)
+    no Carrier-Carrier scattering
+    no E_normal dependence
+    Without ThinLayer mobility model
+    no high-field saturation
+    Einstein relation for diffusivity-mobility ratio.
+  Hole mobility:
+    no Doping dependence (using constant mobility)
+    no Carrier-Carrier scattering
+    no E_normal dependence
+    Without ThinLayer mobility model
+    no high-field saturation
+    Einstein relation for diffusivity-mobility ratio.
+  Energy relaxation time model: according to formula in parameter file
+  Lattice thermal conductivity model: according to formula in parameter file
+  Metal Resistivity model: according to formula in parameter file
+  Thermo Electric Power model: extraploted Si data
+  Metal Thermo Electric Power model: MetalThermoElectricPower model not defined
+  Lattice heat capacity model: temperature dependent
+  no piezoelectric polarization model
+  Without default parameters from file (use built-in default parameters)
+-----------------------------------------------
+Process information for extraction purposes:
+  none
+Plot variables:
+  DopingConcentration
+  DonorConcentration
+  AcceptorConcentration
+  BandGap
+  BandgapNarrowing
+  ElectronAffinity
+  ConductionBandEnergy
+  ValenceBandEnergy
+  eQuasiFermiEnergy
+  hQuasiFermiEnergy
+  eDensity
+  hDensity
+  EffectiveIntrinsicDensity
+  IntrinsicDensity
+  ElectricField/Vector
+  ElectrostaticPotential
+  eMobility
+  hMobility
+  SRHRecombination
+  AugerRecombination
+  TotalRecombination
+  SurfaceRecombination
+
+------------------------------------------------
+NoisePlot variables:
+  none
+Plot groups:
+  none
+
+------------------------------------------------
+CurrentPlot variables:
+  none
+Devices:
+Systems:
+Solve :
+ Poisson
+Coupled ( Digits : 5, Max. #iterations : 50, 
+    Solver : blocked decomposition,
+    #undamped iterations : 1000 
+)
+    { Poisson Electron Hole } 
+Plot( FilePrefix = "0.0V_neg_dd" overwrite )
+  { }
+Quasistationary ( Digits : 5, Max. #iterations : 50, 
+      Initial step in t : 0.05, 
+      Minimum step in t : 1.0000e-04, Maximum step in t : 0.1, 
+      Increment : 2, Decrement : 2, 
+      Goal values :
+        Contact n2contact : 0.01V
+    )
+  {
+    Coupled ( Digits : 5, Max. #iterations : 50, 
+        Solver : blocked decomposition,
+        #undamped iterations : 1000 
+)
+        { Poisson Electron Hole } 
+    Plot( FilePrefix = "0.01V_neg_dd" overwrite )
+      { }
+    CurrentPlot (
+         Time (fixed times:
+             0.0000e+00 0.1 0.2 0.3 0.4
+             0.5 0.6 0.7 0.8 0.9
+             1) )
+      { }
+  }
+Quasistationary ( Digits : 5, Max. #iterations : 50, 
+      Initial step in t : 0.05, 
+      Minimum step in t : 1.0000e-04, Maximum step in t : 0.1, 
+      Increment : 2, Decrement : 2, 
+      Goal values :
+        Contact n2contact : 0.1V
+    )
+  {
+    Coupled ( Digits : 5, Max. #iterations : 50, 
+        Solver : blocked decomposition,
+        #undamped iterations : 1000 
+)
+        { Poisson Electron Hole } 
+    Plot( FilePrefix = "0.1V_neg_dd" overwrite )
+      { }
+    CurrentPlot (
+         Time (fixed times:
+             0.0000e+00 0.1 0.2 0.3 0.4
+             0.5 0.6 0.7 0.8 0.9
+             1) )
+      { }
+  }
+Quasistationary ( Digits : 5, Max. #iterations : 50, 
+      Initial step in t : 1.0000e-04, 
+      Minimum step in t : 1.0000e-04, Maximum step in t : 0.05, 
+      Increment : 2, Decrement : 2, 
+      Goal values :
+        Contact n2contact : 1V
+    )
+  {
+    Coupled ( Digits : 5, Max. #iterations : 50, 
+        Solver : blocked decomposition,
+        #undamped iterations : 1000 
+)
+        { Poisson Electron Hole } 
+    Plot( FilePrefix = "1V_neg_dd" overwrite )
+      { }
+    CurrentPlot (
+         Time (fixed times:
+             0.0000e+00 0.02 0.04 0.06 0.08
+             0.1 0.12 0.14 0.16 0.18
+             0.2 0.22 0.24 0.26 0.28
+             0.3 0.32 0.34 0.36 0.38
+             0.4 0.42 0.44 0.46 0.48
+             0.5 0.52 0.54 0.56 0.58
+             0.6 0.62 0.64 0.66 0.68
+             0.7 0.72 0.74 0.76 0.78
+             0.8 0.82 0.84 0.86 0.88
+             0.9 0.92 0.94 0.96 0.98
+             1) )
+      { }
+  }
+Quasistationary ( Digits : 5, Max. #iterations : 50, 
+      Initial step in t : 0.025, 
+      Minimum step in t : 1.0000e-04, Maximum step in t : 0.05, 
+      Increment : 2, Decrement : 2, 
+      Goal values :
+        Contact n2contact : 3V
+    )
+  {
+    Coupled ( Digits : 5, Max. #iterations : 50, 
+        Solver : blocked decomposition,
+        #undamped iterations : 1000 
+)
+        { Poisson Electron Hole } 
+    Plot( FilePrefix = "3V_neg_dd" overwrite )
+      { }
+    CurrentPlot (
+         Time (fixed times:
+             0.0000e+00 0.02 0.04 0.06 0.08
+             0.1 0.12 0.14 0.16 0.18
+             0.2 0.22 0.24 0.26 0.28
+             0.3 0.32 0.34 0.36 0.38
+             0.4 0.42 0.44 0.46 0.48
+             0.5 0.52 0.54 0.56 0.58
+             0.6 0.62 0.64 0.66 0.68
+             0.7 0.72 0.74 0.76 0.78
+             0.8 0.82 0.84 0.86 0.88
+             0.9 0.92 0.94 0.96 0.98
+             1) )
+      { }
+  }
+
+===============================
+
+Reading grid 'q1_msh.tdr' ... 
+  coordinate system: DFISE, 2d_dfise (y is device down direction, 3d extension right-handed)
+  use coordinate system as is (no transformation)
+  TDR format
+  Number of grid points is 495.
+done.
+
+Adding interfaces and contacts .... done.
+Computing edges ...
+  Number of edges: 1376
+done.
+Computing boxes ...
+
+  CVPL_AverageBoxMethod = TRUE 
+   
+  ElementWithMinVolume(   750) Vertex0(  425)( 4.453125e+00, 2.250000e+00) Volume = 7.324219e-03 um3 (4.88e-04 from TotalVolume)
+    ElementWithMinEdge(   546) Vertex0(  310)( 4.453125e+00, 3.750000e-01) Length = 3.906250e-02 um
+        MaxFlatElement(   554) Vertex0(  315)( 4.531250e+00, 3.750000e-01)  Angle = 9.000000e+01 degrees
+   ElementWithMinAngle(   818) Vertex0(  462)( 4.453125e+00, 2.625000e+00)  Angle = 5.946863e+00 degrees
+                   tan(MinAngle) = 1.041667e-01 
+
+   NumberOfEdges              =   1376 
+   NumberOfGeometricalEdges   =   1358 
+   NumberOfDoubleEdges        =      0 
+   MaxNumberOfElementsPerEdge =      2 
+   MaxNumberOfEdgesPerVertex  =      6 
+
+  Computing coefficient and measure ...   done.
+  Old Parameters time:   0.00 s
+
+  Computing Voronoi faces, coefficients, and measures ... 
+  CVPL_Algorithm = TRUE 
+
+    Computing Obtuse Elements ... 
+     Obtuse Elements time:   0.00 s
+      New Parameters time:   0.00 s
+
+                       NumberOfVertices =    513 
+                       NumberOfElements =    864 
+                      NumberOfTriangles =    864  (100.00 %)
+                     NumberOfRectangles =      0  ( 0.00 %)
+                 NumberOfObtuseElements =      0  ( 0.00 %)
+    done.
+  done.
+  (times: wc = 0.0000e+00 s, tcpu = 0.01 s)
+
+
+/-------- Region non Delaunay elements ----------------------------------------
+ Region       Volume      BoxMethodVolume  DeltaVolume  Elements  non Delaunay 
+  name         [um2]          [um2]           [%]                   Elements   
+ ------------------------------------------------------------------------------
+ region_1  1.5000000e+01  1.5000000e+01       0.000       864       0 ( 0.00 %) 
+ Total     1.5000000e+01  1.5000000e+01       0.000       864       0 ( 0.00 %) 
+\------------------------------------------------------------------------------
+done.
+Reading doping 'q1_msh.tdr' (TDR format) ...
+done.
+done.
+Reading parameter file 'models.par' ...
+---------------------------------------------------
+ Reading parameters for material "Silicon"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	StressMobility: beta_mlda = 1.5, instead of: 1.22 [1]
+
+---------------------------------------------------
+ Reading parameters for electrode "n1contact"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for electrode "n2contact"
+---------------------------------------------------
+
+
+=======
+Region: "region_1"
+  (material is "Silicon")
+=======
+  Constants are not modified and equal to default ones
+
+==========
+Electrode: "n1contact"
+==========
+  Constants are not modified and equal to default ones
+
+==========
+Electrode: "n2contact"
+==========
+  Constants are not modified and equal to default ones
+
+
+Use doping species (P) concentrations from file (Species => Na,Nd)!
+Use doping concentration (Nnet) from file.
+No total doping concentration in doping file (Species => Ntot)!
+
+
+
+With Constant Reference Potential:
+  Parameters of Reference Semiconductor:
+    The Electron Affinity: 4.07274
+    The Band Gap: 1.11936
+    The Electron DOS: 2.8571e+19
+    The Hole DOS: 3.1046e+19
+  The Constant Reference Potential: 4.63135
+
+===============================
+Starting solve of next problem:
+ Poisson
+===============================
+
+Computing poisson-equation 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      6.22e-14                                                      0.00
+Finished, because |RHS| is less than 1.0000e-10.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00       5.801E-35        -5.801E-35        0.000E+00
+ n2contact    0.000E+00       5.447E-35        -5.447E-35        0.000E+00
+
+
+===============================
+Starting solve of next problem:
+Coupled ( Digits : 5, Max. #iterations : 50, 
+    Solver : blocked decomposition,
+    #undamped iterations : 1000 
+)
+    { Poisson Electron Hole } 
+===============================
+
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      6.22e-14                                                      0.00
+Finished, because |RHS| is less than 1.0000e-10.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00       5.801E-35        -5.801E-35        0.000E+00
+ n2contact    0.000E+00       5.447E-35        -5.447E-35        0.000E+00
+
+
+===============================
+Starting solve of next problem:
+Plot( FilePrefix = "0.0V_neg_dd" overwrite )
+  { }
+===============================
+
+Saving device '':
+    Writing plot '0.0V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '0.0V_neg_dd_circuit_des.sav' ... done.
+
+
+===============================
+Starting solve of next problem:
+Quasistationary ( Digits : 5, Max. #iterations : 50, 
+      Initial step in t : 0.05, 
+      Minimum step in t : 1.0000e-04, Maximum step in t : 0.1, 
+      Increment : 2, Decrement : 2, 
+      Goal values :
+        Contact n2contact : 0.01V
+    )
+  {
+    Coupled ( Digits : 5, Max. #iterations : 50, 
+        Solver : blocked decomposition,
+        #undamped iterations : 1000 
+)
+        { Poisson Electron Hole } 
+    Plot( FilePrefix = "0.01V_neg_dd" overwrite )
+      { }
+    CurrentPlot (
+         Time (fixed times:
+             0.0000e+00 0.1 0.2 0.3 0.4
+             0.5 0.6 0.7 0.8 0.9
+             1) )
+      { }
+  }
+===============================
+
+Computing solution for t=0 :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      6.22e-14                                                      0.00
+Finished, because |RHS| is less than 1.0000e-10.
+
+
+Plot started:
+Saving device '':
+    Writing plot '0.01V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '0.01V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00       5.801E-35        -5.801E-35        0.000E+00
+ n2contact    0.000E+00       5.447E-35        -5.447E-35        0.000E+00
+
+Computing step from t=0.0000e+00 to t=0.05 (Stepsize: 0.05) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.59e+06                                                      0.01
+    1      5.82e-07   1.00e+00   6.82e-03   4.65e+01    0         1      0.03
+Finished, because...
+|RHS| less than 1.0000E-05.
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '0.01V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '0.01V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -6.811E-08        -3.228E-20       -6.811E-08
+ n2contact    5.000E-04       6.811E-08         3.228E-20        6.811E-08
+
+Computing step from t=0.05 to t=0.1 (Stepsize: 0.05) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.53e-06                                                      0.01
+    1      5.37e-07   1.00e+00   9.81e-16   9.38e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 9.3830E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '0.01V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '0.01V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.362E-07        -6.456E-20       -1.362E-07
+ n2contact    1.000E-03       1.362E-07         6.456E-20        1.362E-07
+
+Computing step from t=0.1 to t=0.2 (Stepsize: 0.1) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.85e-06                                                      0.01
+    1      4.52e-07   1.00e+00   5.39e-15   3.64e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 3.6428E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '0.01V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '0.01V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -2.724E-07        -1.291E-19       -2.724E-07
+ n2contact    2.000E-03       2.724E-07         1.291E-19        2.724E-07
+
+Computing step from t=0.2 to t=0.3 (Stepsize: 0.1) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.40e-06                                                      0.01
+    1      5.73e-07   1.00e+00   3.11e-15   1.64e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.6376E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '0.01V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '0.01V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -4.087E-07        -1.937E-19       -4.087E-07
+ n2contact    3.000E-03       4.087E-07         1.937E-19        4.087E-07
+
+Computing step from t=0.3 to t=0.4 (Stepsize: 0.1) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.51e-06                                                      0.01
+    1      5.33e-07   1.00e+00   8.22e-16   1.09e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.0914E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '0.01V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '0.01V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -5.449E-07        -2.583E-19       -5.449E-07
+ n2contact    4.000E-03       5.449E-07         2.583E-19        5.449E-07
+
+Computing step from t=0.4 to t=0.5 (Stepsize: 0.1) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.52e-06                                                      0.01
+    1      5.41e-07   1.00e+00   9.90e-16   1.15e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.1534E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '0.01V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '0.01V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -6.811E-07        -3.228E-19       -6.811E-07
+ n2contact    5.000E-03       6.811E-07         3.228E-19        6.811E-07
+
+Computing step from t=0.5 to t=0.6 (Stepsize: 0.1) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.43e-06                                                      0.01
+    1      4.91e-07   1.00e+00   1.01e-15   1.02e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.0173E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '0.01V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '0.01V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -8.173E-07        -3.874E-19       -8.173E-07
+ n2contact    6.000E-03       8.173E-07         3.874E-19        8.173E-07
+
+Computing step from t=0.6 to t=0.7 (Stepsize: 0.1) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      9.83e-07                                                      0.01
+    1      4.62e-07   1.00e+00   1.44e-15   1.28e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.2831E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '0.01V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '0.01V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -9.535E-07        -4.520E-19       -9.535E-07
+ n2contact    7.000E-03       9.535E-07         4.520E-19        9.535E-07
+
+Computing step from t=0.7 to t=0.8 (Stepsize: 0.1) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      8.74e-07                                                      0.01
+    1      4.91e-07   1.00e+00   1.74e-15   1.44e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.4372E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '0.01V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '0.01V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.090E-06        -5.165E-19       -1.090E-06
+ n2contact    8.000E-03       1.090E-06         5.165E-19        1.090E-06
+
+Computing step from t=0.8 to t=0.9 (Stepsize: 0.1) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.25e-06                                                      0.01
+    1      5.48e-07   1.00e+00   1.15e-15   1.13e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.1336E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '0.01V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '0.01V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.226E-06        -5.811E-19       -1.226E-06
+ n2contact    9.000E-03       1.226E-06         5.811E-19        1.226E-06
+
+Computing step from t=0.9 to t=1 (Stepsize: 0.1) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.52e-06                                                      0.01
+    1      5.09e-07   1.00e+00   3.21e-15   1.04e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.0444E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '0.01V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '0.01V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.362E-06        -6.456E-19       -1.362E-06
+ n2contact    1.000E-02       1.362E-06         6.456E-19        1.362E-06
+
+
+Finished, because of...
+Curve trace finished.
+
+
+===============================
+Starting solve of next problem:
+Quasistationary ( Digits : 5, Max. #iterations : 50, 
+      Initial step in t : 0.05, 
+      Minimum step in t : 1.0000e-04, Maximum step in t : 0.1, 
+      Increment : 2, Decrement : 2, 
+      Goal values :
+        Contact n2contact : 0.1V
+    )
+  {
+    Coupled ( Digits : 5, Max. #iterations : 50, 
+        Solver : blocked decomposition,
+        #undamped iterations : 1000 
+)
+        { Poisson Electron Hole } 
+    Plot( FilePrefix = "0.1V_neg_dd" overwrite )
+      { }
+    CurrentPlot (
+         Time (fixed times:
+             0.0000e+00 0.1 0.2 0.3 0.4
+             0.5 0.6 0.7 0.8 0.9
+             1) )
+      { }
+  }
+===============================
+
+Reusing extrapolation from a previous quasistationary
+
+Computing solution for t=0 :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.09e-07                                                      0.00
+    1      4.91e-07   1.00e+00   7.77e-16   6.96e-12    0         1      0.02
+Finished, because...
+Error smaller than 1 ( 6.9587E-12 ).
+
+Accumulated times:
+Rhs time:        0.01 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.02 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '0.1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '0.1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.362E-06        -6.456E-19       -1.362E-06
+ n2contact    1.000E-02       1.362E-06         6.456E-19        1.362E-06
+
+Computing step from t=0.0000e+00 to t=0.05 (Stepsize: 0.05) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.04e-05                                                      0.01
+    1      5.16e-07   1.00e+00   8.40e-15   5.91e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 5.9060E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '0.1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '0.1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.975E-06        -9.362E-19       -1.975E-06
+ n2contact    1.450E-02       1.975E-06         9.362E-19        1.975E-06
+
+Computing step from t=0.05 to t=0.1 (Stepsize: 0.05) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.06e-06                                                      0.02
+    1      6.39e-07   1.00e+00   1.15e-15   1.25e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.2514E-11 ).
+
+Accumulated times:
+Rhs time:        0.04 s
+Jacobian time:   0.00 s
+Solve time:      0.00 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '0.1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '0.1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -2.588E-06        -1.227E-18       -2.588E-06
+ n2contact    1.900E-02       2.588E-06         1.227E-18        2.588E-06
+
+Computing step from t=0.1 to t=0.2 (Stepsize: 0.1) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.23e-06                                                      0.01
+    1      5.39e-07   1.00e+00   5.18e-15   4.05e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 4.0475E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '0.1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '0.1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -3.814E-06        -1.808E-18       -3.814E-06
+ n2contact    2.800E-02       3.814E-06         1.808E-18        3.814E-06
+
+Computing step from t=0.2 to t=0.3 (Stepsize: 0.1) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.56e-06                                                      0.01
+    1      5.72e-07   1.00e+00   2.47e-15   1.89e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.8919E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '0.1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '0.1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -5.040E-06        -2.389E-18       -5.040E-06
+ n2contact    3.700E-02       5.040E-06         2.389E-18        5.040E-06
+
+Computing step from t=0.3 to t=0.4 (Stepsize: 0.1) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.47e-06                                                      0.02
+    1      4.90e-07   1.00e+00   1.03e-15   1.13e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.1278E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '0.1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '0.1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -6.266E-06        -2.970E-18       -6.266E-06
+ n2contact    4.600E-02       6.266E-06         2.970E-18        6.266E-06
+
+Computing step from t=0.4 to t=0.5 (Stepsize: 0.1) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.04e-06                                                      0.01
+    1      5.73e-07   1.00e+00   1.14e-15   1.14e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.1369E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '0.1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '0.1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -7.492E-06        -3.551E-18       -7.492E-06
+ n2contact    5.500E-02       7.492E-06         3.551E-18        7.492E-06
+
+Computing step from t=0.5 to t=0.6 (Stepsize: 0.1) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.37e-06                                                      0.01
+    1      6.02e-07   1.00e+00   1.39e-15   1.22e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.2226E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '0.1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '0.1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -8.718E-06        -4.132E-18       -8.718E-06
+ n2contact    6.400E-02       8.718E-06         4.132E-18        8.718E-06
+
+Computing step from t=0.6 to t=0.7 (Stepsize: 0.1) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.54e-06                                                      0.01
+    1      8.60e-07   1.00e+00   3.48e-15   1.18e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.1786E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '0.1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '0.1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -9.944E-06        -4.713E-18       -9.944E-06
+ n2contact    7.300E-02       9.944E-06         4.713E-18        9.944E-06
+
+Computing step from t=0.7 to t=0.8 (Stepsize: 0.1) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.82e-06                                                      0.02
+    1      1.08e-06   1.00e+00   6.07e-15   2.14e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 2.1391E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '0.1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '0.1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.117E-05        -5.294E-18       -1.117E-05
+ n2contact    8.200E-02       1.117E-05         5.294E-18        1.117E-05
+
+Computing step from t=0.8 to t=0.9 (Stepsize: 0.1) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.94e-06                                                      0.02
+    1      1.10e-06   1.00e+00   1.66e-15   2.27e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 2.2696E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '0.1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '0.1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.240E-05        -5.875E-18       -1.240E-05
+ n2contact    9.100E-02       1.240E-05         5.875E-18        1.240E-05
+
+Computing step from t=0.9 to t=1 (Stepsize: 0.1) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.87e-06                                                      0.01
+    1      4.00e-07   1.00e+00   3.88e-15   1.55e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.5516E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '0.1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '0.1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.362E-05        -6.456E-18       -1.362E-05
+ n2contact    1.000E-01       1.362E-05         6.456E-18        1.362E-05
+
+
+Finished, because of...
+Curve trace finished.
+
+
+===============================
+Starting solve of next problem:
+Quasistationary ( Digits : 5, Max. #iterations : 50, 
+      Initial step in t : 1.0000e-04, 
+      Minimum step in t : 1.0000e-04, Maximum step in t : 0.05, 
+      Increment : 2, Decrement : 2, 
+      Goal values :
+        Contact n2contact : 1V
+    )
+  {
+    Coupled ( Digits : 5, Max. #iterations : 50, 
+        Solver : blocked decomposition,
+        #undamped iterations : 1000 
+)
+        { Poisson Electron Hole } 
+    Plot( FilePrefix = "1V_neg_dd" overwrite )
+      { }
+    CurrentPlot (
+         Time (fixed times:
+             0.0000e+00 0.02 0.04 0.06 0.08
+             0.1 0.12 0.14 0.16 0.18
+             0.2 0.22 0.24 0.26 0.28
+             0.3 0.32 0.34 0.36 0.38
+             0.4 0.42 0.44 0.46 0.48
+             0.5 0.52 0.54 0.56 0.58
+             0.6 0.62 0.64 0.66 0.68
+             0.7 0.72 0.74 0.76 0.78
+             0.8 0.82 0.84 0.86 0.88
+             0.9 0.92 0.94 0.96 0.98
+             1) )
+      { }
+  }
+===============================
+
+Reusing extrapolation from a previous quasistationary
+
+Computing solution for t=0 :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.00e-07                                                      0.00
+    1      3.18e-07   1.00e+00   9.45e-16   6.47e-12    0         1      0.02
+Finished, because...
+Error smaller than 1 ( 6.4693E-12 ).
+
+Accumulated times:
+Rhs time:        0.01 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.02 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.362E-05        -6.456E-18       -1.362E-05
+ n2contact    1.000E-01       1.362E-05         6.456E-18        1.362E-05
+
+Computing step from t=0.0000e+00 to t=1.0000e-04 (Stepsize: 1.0000e-04) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      8.88e-07                                                      0.01
+    1      9.93e-07   1.00e+00   3.45e-15   1.02e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.0171E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.363E-05        -6.462E-18       -1.363E-05
+ n2contact    1.001E-01       1.363E-05         6.462E-18        1.363E-05
+
+Computing step from t=1.0000e-04 to t=3.0000e-04 (Stepsize: 2.0000e-04) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.52e-06                                                      0.01
+    1      9.92e-07   1.00e+00   5.54e-15   3.17e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 3.1653E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.366E-05        -6.474E-18       -1.366E-05
+ n2contact    1.003E-01       1.366E-05         6.474E-18        1.366E-05
+
+Computing step from t=3.0000e-04 to t=7.0000e-04 (Stepsize: 4.0000e-04) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.53e-06                                                      0.01
+    1      8.20e-07   1.00e+00   6.25e-15   4.52e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 4.5183E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.371E-05        -6.497E-18       -1.371E-05
+ n2contact    1.006E-01       1.371E-05         6.497E-18        1.371E-05
+
+Computing step from t=7.0000e-04 to t=1.5000e-03 (Stepsize: 8.0000e-04) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.45e-06                                                      0.01
+    1      1.07e-06   1.00e+00   7.54e-15   4.17e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 4.1662E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.381E-05        -6.544E-18       -1.381E-05
+ n2contact    1.014E-01       1.381E-05         6.544E-18        1.381E-05
+
+Computing step from t=1.5000e-03 to t=3.1000e-03 (Stepsize: 1.6000e-03) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.44e-06                                                      0.01
+    1      5.32e-07   1.00e+00   7.14e-15   2.65e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 2.6502E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.400E-05        -6.637E-18       -1.400E-05
+ n2contact    1.028E-01       1.400E-05         6.637E-18        1.400E-05
+
+Computing step from t=3.1000e-03 to t=6.3000e-03 (Stepsize: 3.2000e-03) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.78e-06                                                      0.01
+    1      5.96e-07   1.00e+00   2.82e-15   3.18e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 3.1766E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.439E-05        -6.823E-18       -1.439E-05
+ n2contact    1.057E-01       1.439E-05         6.823E-18        1.439E-05
+
+Computing step from t=6.3000e-03 to t=0.0127 (Stepsize: 6.4000e-03) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.88e-06                                                      0.01
+    1      8.60e-07   1.00e+00   7.00e-15   3.99e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 3.9942E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.518E-05        -7.194E-18       -1.518E-05
+ n2contact    1.114E-01       1.518E-05         7.194E-18        1.518E-05
+
+Computing step from t=0.0127 to t=0.02 (Stepsize: 7.3000e-03) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.32e-06                                                      0.01
+    1      8.61e-07   1.00e+00   4.76e-15   2.10e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 2.0992E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.607E-05        -7.619E-18       -1.607E-05
+ n2contact    1.180E-01       1.607E-05         7.619E-18        1.607E-05
+
+Computing step from t=0.02 to t=0.0328 (Stepsize: 0.0128) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.31e-06                                                      0.01
+    1      9.02e-07   1.00e+00   4.63e-15   3.31e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 3.3102E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.764E-05        -8.362E-18       -1.764E-05
+ n2contact    1.295E-01       1.764E-05         8.362E-18        1.764E-05
+
+Computing step from t=0.0328 to t=0.04 (Stepsize: 7.2000e-03) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.00e-06                                                      0.01
+    1      9.42e-07   1.00e+00   1.24e-15   1.27e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.2711E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.853E-05        -8.781E-18       -1.853E-05
+ n2contact    1.360E-01       1.853E-05         8.781E-18        1.853E-05
+
+Computing step from t=0.04 to t=0.06 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.65e-06                                                      0.02
+    1      1.00e-06   1.00e+00   3.52e-15   3.41e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 3.4147E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.00 s
+Solve time:      0.00 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -2.098E-05        -9.943E-18       -2.098E-05
+ n2contact    1.540E-01       2.098E-05         9.943E-18        2.098E-05
+
+Computing step from t=0.06 to t=0.08 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.81e-06                                                      0.01
+    1      8.18e-07   1.00e+00   1.22e-15   1.12e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.1215E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -2.343E-05        -1.111E-17       -2.343E-05
+ n2contact    1.720E-01       2.343E-05         1.111E-17        2.343E-05
+
+Computing step from t=0.08 to t=0.1 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.50e-06                                                      0.02
+    1      1.23e-06   1.00e+00   1.47e-15   1.30e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.2986E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -2.588E-05        -1.227E-17       -2.588E-05
+ n2contact    1.900E-01       2.588E-05         1.227E-17        2.588E-05
+
+Computing step from t=0.1 to t=0.12 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.12e-06                                                      0.01
+    1      1.28e-06   1.00e+00   1.27e-15   1.19e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.1868E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -2.833E-05        -1.343E-17       -2.833E-05
+ n2contact    2.080E-01       2.833E-05         1.343E-17        2.833E-05
+
+Computing step from t=0.12 to t=0.14 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.66e-06                                                      0.02
+    1      8.18e-07   1.00e+00   1.89e-15   2.01e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 2.0071E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -3.079E-05        -1.459E-17       -3.079E-05
+ n2contact    2.260E-01       3.079E-05         1.459E-17        3.079E-05
+
+Computing step from t=0.14 to t=0.16 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.14e-06                                                      0.01
+    1      8.61e-07   1.00e+00   4.34e-15   2.88e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 2.8786E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -3.324E-05        -1.575E-17       -3.324E-05
+ n2contact    2.440E-01       3.324E-05         1.575E-17        3.324E-05
+
+Computing step from t=0.16 to t=0.18 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.76e-06                                                      0.01
+    1      1.19e-06   1.00e+00   3.90e-15   2.77e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 2.7694E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -3.569E-05        -1.692E-17       -3.569E-05
+ n2contact    2.620E-01       3.569E-05         1.692E-17        3.569E-05
+
+Computing step from t=0.18 to t=0.2 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.85e-06                                                      0.02
+    1      9.44e-07   1.00e+00   4.28e-15   2.38e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 2.3832E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -3.814E-05        -1.808E-17       -3.814E-05
+ n2contact    2.800E-01       3.814E-05         1.808E-17        3.814E-05
+
+Computing step from t=0.2 to t=0.22 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.29e-06                                                      0.01
+    1      1.25e-06   1.00e+00   7.39e-15   2.03e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 2.0337E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -4.059E-05        -1.924E-17       -4.059E-05
+ n2contact    2.980E-01       4.059E-05         1.924E-17        4.059E-05
+
+Computing step from t=0.22 to t=0.24 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.94e-06                                                      0.01
+    1      1.36e-06   1.00e+00   7.19e-15   1.82e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.8158E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -4.305E-05        -2.040E-17       -4.305E-05
+ n2contact    3.160E-01       4.305E-05         2.040E-17        4.305E-05
+
+Computing step from t=0.24 to t=0.26 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.25e-06                                                      0.01
+    1      9.82e-07   1.00e+00   7.26e-15   1.77e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.7740E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -4.550E-05        -2.156E-17       -4.550E-05
+ n2contact    3.340E-01       4.550E-05         2.156E-17        4.550E-05
+
+Computing step from t=0.26 to t=0.28 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.41e-06                                                      0.02
+    1      5.33e-07   1.00e+00   6.84e-15   1.86e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.8642E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -4.795E-05        -2.273E-17       -4.795E-05
+ n2contact    3.520E-01       4.795E-05         2.273E-17        4.795E-05
+
+Computing step from t=0.28 to t=0.3 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.43e-06                                                      0.01
+    1      8.62e-07   1.00e+00   3.98e-15   1.40e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.3967E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -5.040E-05        -2.389E-17       -5.040E-05
+ n2contact    3.700E-01       5.040E-05         2.389E-17        5.040E-05
+
+Computing step from t=0.3 to t=0.32 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.76e-06                                                      0.01
+    1      5.85e-07   1.00e+00   4.08e-15   1.16e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.1567E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -5.285E-05        -2.505E-17       -5.285E-05
+ n2contact    3.880E-01       5.285E-05         2.505E-17        5.285E-05
+
+Computing step from t=0.32 to t=0.34 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.37e-06                                                      0.01
+    1      1.02e-06   1.00e+00   7.44e-15   2.06e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 2.0644E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -5.530E-05        -2.621E-17       -5.530E-05
+ n2contact    4.060E-01       5.530E-05         2.621E-17        5.530E-05
+
+Computing step from t=0.34 to t=0.36 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.69e-06                                                      0.01
+    1      1.02e-06   1.00e+00   2.12e-15   2.05e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 2.0493E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -5.776E-05        -2.738E-17       -5.776E-05
+ n2contact    4.240E-01       5.776E-05         2.738E-17        5.776E-05
+
+Computing step from t=0.36 to t=0.38 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.64e-06                                                      0.02
+    1      9.28e-07   1.00e+00   1.32e-15   1.35e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.3534E-11 ).
+
+Accumulated times:
+Rhs time:        0.04 s
+Jacobian time:   0.00 s
+Solve time:      0.00 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -6.021E-05        -2.854E-17       -6.021E-05
+ n2contact    4.420E-01       6.021E-05         2.854E-17        6.021E-05
+
+Computing step from t=0.38 to t=0.4 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.46e-06                                                      0.01
+    1      9.33e-07   1.00e+00   1.58e-15   1.14e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.1365E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -6.266E-05        -2.970E-17       -6.266E-05
+ n2contact    4.600E-01       6.266E-05         2.970E-17        6.266E-05
+
+Computing step from t=0.4 to t=0.42 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.88e-06                                                      0.02
+    1      8.64e-07   1.00e+00   2.21e-15   1.23e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.2298E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -6.511E-05        -3.086E-17       -6.511E-05
+ n2contact    4.780E-01       6.511E-05         3.086E-17        6.511E-05
+
+Computing step from t=0.42 to t=0.44 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.55e-06                                                      0.01
+    1      8.94e-07   1.00e+00   4.04e-15   1.78e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.7754E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -6.756E-05        -3.202E-17       -6.756E-05
+ n2contact    4.960E-01       6.756E-05         3.202E-17        6.756E-05
+
+Computing step from t=0.44 to t=0.46 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.04e-06                                                      0.02
+    1      1.76e-06   1.00e+00   4.29e-15   2.67e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 2.6691E-11 ).
+
+Accumulated times:
+Rhs time:        0.04 s
+Jacobian time:   0.00 s
+Solve time:      0.00 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -7.002E-05        -3.319E-17       -7.002E-05
+ n2contact    5.140E-01       7.002E-05         3.319E-17        7.002E-05
+
+Computing step from t=0.46 to t=0.48 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.12e-06                                                      0.01
+    1      2.69e-06   1.00e+00   3.76e-15   1.62e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.6228E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -7.247E-05        -3.435E-17       -7.247E-05
+ n2contact    5.320E-01       7.247E-05         3.435E-17        7.247E-05
+
+Computing step from t=0.48 to t=0.5 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      6.15e-06                                                      0.01
+    1      2.41e-06   1.00e+00   4.90e-15   1.86e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.8623E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -7.492E-05        -3.551E-17       -7.492E-05
+ n2contact    5.500E-01       7.492E-05         3.551E-17        7.492E-05
+
+Computing step from t=0.5 to t=0.52 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      7.49e-06                                                      0.01
+    1      2.38e-06   1.00e+00   5.98e-15   2.87e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 2.8736E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -7.737E-05        -3.667E-17       -7.737E-05
+ n2contact    5.680E-01       7.737E-05         3.667E-17        7.737E-05
+
+Computing step from t=0.52 to t=0.54 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.93e-06                                                      0.01
+    1      1.80e-06   1.00e+00   3.99e-15   1.63e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.6333E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -7.982E-05        -3.783E-17       -7.982E-05
+ n2contact    5.860E-01       7.982E-05         3.783E-17        7.982E-05
+
+Computing step from t=0.54 to t=0.56 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      6.63e-06                                                      0.01
+    1      6.89e-07   1.00e+00   3.46e-15   1.50e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.5040E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -8.228E-05        -3.900E-17       -8.228E-05
+ n2contact    6.040E-01       8.228E-05         3.900E-17        8.228E-05
+
+Computing step from t=0.56 to t=0.58 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.67e-06                                                      0.01
+    1      1.16e-06   1.00e+00   4.34e-15   1.83e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.8277E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -8.473E-05        -4.016E-17       -8.473E-05
+ n2contact    6.220E-01       8.473E-05         4.016E-17        8.473E-05
+
+Computing step from t=0.58 to t=0.6 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.94e-06                                                      0.01
+    1      2.34e-06   1.00e+00   4.34e-15   2.51e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 2.5132E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -8.718E-05        -4.132E-17       -8.718E-05
+ n2contact    6.400E-01       8.718E-05         4.132E-17        8.718E-05
+
+Computing step from t=0.6 to t=0.62 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.71e-06                                                      0.01
+    1      1.72e-06   1.00e+00   4.19e-15   1.16e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.1564E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -8.963E-05        -4.248E-17       -8.963E-05
+ n2contact    6.580E-01       8.963E-05         4.248E-17        8.963E-05
+
+Computing step from t=0.62 to t=0.64 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.08e-06                                                      0.01
+    1      1.21e-06   1.00e+00   3.17e-15   3.59e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 3.5861E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -9.208E-05        -4.365E-17       -9.208E-05
+ n2contact    6.760E-01       9.208E-05         4.365E-17        9.208E-05
+
+Computing step from t=0.64 to t=0.66 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.96e-06                                                      0.02
+    1      2.23e-06   1.00e+00   4.65e-15   3.55e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 3.5512E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -9.454E-05        -4.481E-17       -9.454E-05
+ n2contact    6.940E-01       9.454E-05         4.481E-17        9.454E-05
+
+Computing step from t=0.66 to t=0.68 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.69e-06                                                      0.01
+    1      2.25e-06   1.00e+00   3.92e-15   1.23e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.2281E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -9.699E-05        -4.597E-17       -9.699E-05
+ n2contact    7.120E-01       9.699E-05         4.597E-17        9.699E-05
+
+Computing step from t=0.68 to t=0.7 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.67e-06                                                      0.02
+    1      1.73e-06   1.00e+00   3.01e-15   3.51e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 3.5130E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -9.944E-05        -4.713E-17       -9.944E-05
+ n2contact    7.300E-01       9.944E-05         4.713E-17        9.944E-05
+
+Computing step from t=0.7 to t=0.72 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.12e-06                                                      0.01
+    1      2.15e-06   1.00e+00   4.96e-15   3.56e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 3.5625E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.019E-04        -4.829E-17       -1.019E-04
+ n2contact    7.480E-01       1.019E-04         4.829E-17        1.019E-04
+
+Computing step from t=0.72 to t=0.74 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.31e-06                                                      0.02
+    1      2.13e-06   1.00e+00   4.44e-15   1.25e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.2479E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.043E-04        -4.946E-17       -1.043E-04
+ n2contact    7.660E-01       1.043E-04         4.946E-17        1.043E-04
+
+Computing step from t=0.74 to t=0.76 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.54e-06                                                      0.01
+    1      1.77e-06   1.00e+00   4.36e-15   2.53e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 2.5292E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.068E-04        -5.062E-17       -1.068E-04
+ n2contact    7.840E-01       1.068E-04         5.062E-17        1.068E-04
+
+Computing step from t=0.76 to t=0.78 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.08e-06                                                      0.01
+    1      9.83e-07   1.00e+00   2.35e-15   1.65e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.6488E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.092E-04        -5.178E-17       -1.092E-04
+ n2contact    8.020E-01       1.092E-04         5.178E-17        1.092E-04
+
+Computing step from t=0.78 to t=0.8 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.44e-06                                                      0.02
+    1      1.96e-06   1.00e+00   1.76e-15   1.43e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.4337E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.117E-04        -5.294E-17       -1.117E-04
+ n2contact    8.200E-01       1.117E-04         5.294E-17        1.117E-04
+
+Computing step from t=0.8 to t=0.82 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.32e-06                                                      0.01
+    1      1.91e-06   1.00e+00   3.57e-15   3.32e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 3.3217E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.142E-04        -5.411E-17       -1.142E-04
+ n2contact    8.380E-01       1.142E-04         5.411E-17        1.142E-04
+
+Computing step from t=0.82 to t=0.84 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.95e-06                                                      0.01
+    1      1.85e-06   1.00e+00   3.89e-15   2.50e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 2.5042E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.166E-04        -5.527E-17       -1.166E-04
+ n2contact    8.560E-01       1.166E-04         5.527E-17        1.166E-04
+
+Computing step from t=0.84 to t=0.86 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.01e-06                                                      0.01
+    1      2.08e-06   1.00e+00   4.95e-15   2.42e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 2.4237E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.191E-04        -5.643E-17       -1.191E-04
+ n2contact    8.740E-01       1.191E-04         5.643E-17        1.191E-04
+
+Computing step from t=0.86 to t=0.88 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      6.39e-06                                                      0.01
+    1      1.78e-06   1.00e+00   4.85e-15   4.32e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 4.3247E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.215E-04        -5.759E-17       -1.215E-04
+ n2contact    8.920E-01       1.215E-04         5.759E-17        1.215E-04
+
+Computing step from t=0.88 to t=0.9 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.47e-06                                                      0.01
+    1      1.91e-06   1.00e+00   3.46e-15   2.52e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 2.5167E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.240E-04        -5.875E-17       -1.240E-04
+ n2contact    9.100E-01       1.240E-04         5.875E-17        1.240E-04
+
+Computing step from t=0.9 to t=0.92 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.29e-06                                                      0.01
+    1      9.69e-07   1.00e+00   4.71e-15   2.39e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 2.3911E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.264E-04        -5.992E-17       -1.264E-04
+ n2contact    9.280E-01       1.264E-04         5.992E-17        1.264E-04
+
+Computing step from t=0.92 to t=0.94 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.08e-06                                                      0.01
+    1      1.89e-06   1.00e+00   5.02e-15   4.20e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 4.2000E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.289E-04        -6.108E-17       -1.289E-04
+ n2contact    9.460E-01       1.289E-04         6.108E-17        1.289E-04
+
+Computing step from t=0.94 to t=0.96 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.22e-06                                                      0.01
+    1      1.77e-06   1.00e+00   4.49e-15   2.48e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 2.4804E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.313E-04        -6.224E-17       -1.313E-04
+ n2contact    9.640E-01       1.313E-04         6.224E-17        1.313E-04
+
+Computing step from t=0.96 to t=0.98 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.30e-06                                                      0.01
+    1      1.74e-06   1.00e+00   5.41e-15   2.49e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 2.4860E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.338E-04        -6.340E-17       -1.338E-04
+ n2contact    9.820E-01       1.338E-04         6.340E-17        1.338E-04
+
+Computing step from t=0.98 to t=1 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      6.63e-06                                                      0.01
+    1      2.06e-06   1.00e+00   2.73e-15   2.38e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 2.3800E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '1V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '1V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.362E-04        -6.456E-17       -1.362E-04
+ n2contact    1.000E+00       1.362E-04         6.456E-17        1.362E-04
+
+
+Finished, because of...
+Curve trace finished.
+
+
+===============================
+Starting solve of next problem:
+Quasistationary ( Digits : 5, Max. #iterations : 50, 
+      Initial step in t : 0.025, 
+      Minimum step in t : 1.0000e-04, Maximum step in t : 0.05, 
+      Increment : 2, Decrement : 2, 
+      Goal values :
+        Contact n2contact : 3V
+    )
+  {
+    Coupled ( Digits : 5, Max. #iterations : 50, 
+        Solver : blocked decomposition,
+        #undamped iterations : 1000 
+)
+        { Poisson Electron Hole } 
+    Plot( FilePrefix = "3V_neg_dd" overwrite )
+      { }
+    CurrentPlot (
+         Time (fixed times:
+             0.0000e+00 0.02 0.04 0.06 0.08
+             0.1 0.12 0.14 0.16 0.18
+             0.2 0.22 0.24 0.26 0.28
+             0.3 0.32 0.34 0.36 0.38
+             0.4 0.42 0.44 0.46 0.48
+             0.5 0.52 0.54 0.56 0.58
+             0.6 0.62 0.64 0.66 0.68
+             0.7 0.72 0.74 0.76 0.78
+             0.8 0.82 0.84 0.86 0.88
+             0.9 0.92 0.94 0.96 0.98
+             1) )
+      { }
+  }
+===============================
+
+Reusing extrapolation from a previous quasistationary
+
+Computing solution for t=0 :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.06e-06                                                      0.00
+    1      2.06e-06   1.00e+00   9.65e-16   5.86e-12    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 5.8635E-12 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.362E-04        -6.456E-17       -1.362E-04
+ n2contact    1.000E+00       1.362E-04         6.456E-17        1.362E-04
+
+Computing step from t=0.0000e+00 to t=0.02 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.20e-05                                                      0.01
+    1      1.76e-06   1.00e+00   5.40e-15   2.65e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 2.6526E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.417E-04        -6.715E-17       -1.417E-04
+ n2contact    1.040E+00       1.417E-04         6.715E-17        1.417E-04
+
+Computing step from t=0.02 to t=0.04 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.16e-06                                                      0.01
+    1      1.58e-06   1.00e+00   2.06e-15   1.14e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.1385E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.471E-04        -6.973E-17       -1.471E-04
+ n2contact    1.080E+00       1.471E-04         6.973E-17        1.471E-04
+
+Computing step from t=0.04 to t=0.06 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.53e-06                                                      0.01
+    1      2.05e-06   1.00e+00   5.75e-15   1.69e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.6917E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.526E-04        -7.231E-17       -1.526E-04
+ n2contact    1.120E+00       1.526E-04         7.231E-17        1.526E-04
+
+Computing step from t=0.06 to t=0.08 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      7.98e-06                                                      0.01
+    1      2.03e-06   1.00e+00   7.77e-15   1.88e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.8847E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.580E-04        -7.489E-17       -1.580E-04
+ n2contact    1.160E+00       1.580E-04         7.489E-17        1.580E-04
+
+Computing step from t=0.08 to t=0.1 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.36e-06                                                      0.01
+    1      2.06e-06   1.00e+00   5.62e-15   1.51e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.5075E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.635E-04        -7.748E-17       -1.635E-04
+ n2contact    1.200E+00       1.635E-04         7.748E-17        1.635E-04
+
+Computing step from t=0.1 to t=0.12 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.77e-06                                                      0.02
+    1      1.83e-06   1.00e+00   2.30e-15   1.21e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.2074E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.689E-04        -8.006E-17       -1.689E-04
+ n2contact    1.240E+00       1.689E-04         8.006E-17        1.689E-04
+
+Computing step from t=0.12 to t=0.14 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.20e-06                                                      0.01
+    1      2.33e-06   1.00e+00   2.39e-15   1.19e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.1939E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.744E-04        -8.264E-17       -1.744E-04
+ n2contact    1.280E+00       1.744E-04         8.264E-17        1.744E-04
+
+Computing step from t=0.14 to t=0.16 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.42e-06                                                      0.02
+    1      1.77e-06   1.00e+00   3.78e-15   1.44e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.4440E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.798E-04        -8.523E-17       -1.798E-04
+ n2contact    1.320E+00       1.798E-04         8.523E-17        1.798E-04
+
+Computing step from t=0.16 to t=0.18 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      9.72e-06                                                      0.02
+    1      2.40e-06   1.00e+00   6.05e-15   1.58e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.5811E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.853E-04        -8.781E-17       -1.853E-04
+ n2contact    1.360E+00       1.853E-04         8.781E-17        1.853E-04
+
+Computing step from t=0.18 to t=0.2 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      7.17e-06                                                      0.01
+    1      2.67e-06   1.00e+00   4.91e-15   1.38e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.3789E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.907E-04        -9.039E-17       -1.907E-04
+ n2contact    1.400E+00       1.907E-04         9.039E-17        1.907E-04
+
+Computing step from t=0.2 to t=0.22 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.12e-05                                                      0.02
+    1      4.28e-06   1.00e+00   3.00e-15   1.14e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.1428E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -1.962E-04        -9.297E-17       -1.962E-04
+ n2contact    1.440E+00       1.962E-04         9.297E-17        1.962E-04
+
+Computing step from t=0.22 to t=0.24 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      9.37e-06                                                      0.01
+    1      4.22e-06   1.00e+00   3.31e-15   1.20e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.1965E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -2.016E-04        -9.556E-17       -2.016E-04
+ n2contact    1.480E+00       2.016E-04         9.556E-17        2.016E-04
+
+Computing step from t=0.24 to t=0.26 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.09e-05                                                      0.01
+    1      3.46e-06   1.00e+00   3.59e-15   1.27e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.2685E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -2.071E-04        -9.814E-17       -2.071E-04
+ n2contact    1.520E+00       2.071E-04         9.814E-17        2.071E-04
+
+Computing step from t=0.26 to t=0.28 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.28e-05                                                      0.01
+    1      6.18e-06   1.00e+00   4.04e-15   1.32e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.3167E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -2.125E-04        -1.007E-16       -2.125E-04
+ n2contact    1.560E+00       2.125E-04         1.007E-16        2.125E-04
+
+Computing step from t=0.28 to t=0.3 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.30e-05                                                      0.01
+    1      2.86e-06   1.00e+00   3.29e-15   1.25e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.2457E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -2.179E-04        -1.033E-16       -2.179E-04
+ n2contact    1.600E+00       2.179E-04         1.033E-16        2.179E-04
+
+Computing step from t=0.3 to t=0.32 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      7.53e-06                                                      0.01
+    1      4.01e-06   1.00e+00   3.36e-15   1.25e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.2544E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -2.234E-04        -1.059E-16       -2.234E-04
+ n2contact    1.640E+00       2.234E-04         1.059E-16        2.234E-04
+
+Computing step from t=0.32 to t=0.34 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.06e-05                                                      0.02
+    1      4.04e-06   1.00e+00   3.59e-15   1.17e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.1712E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -2.288E-04        -1.085E-16       -2.288E-04
+ n2contact    1.680E+00       2.288E-04         1.085E-16        2.288E-04
+
+Computing step from t=0.34 to t=0.36 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.08e-05                                                      0.01
+    1      3.41e-06   1.00e+00   3.65e-15   1.18e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.1772E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -2.343E-04        -1.111E-16       -2.343E-04
+ n2contact    1.720E+00       2.343E-04         1.111E-16        2.343E-04
+
+Computing step from t=0.36 to t=0.38 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.03e-05                                                      0.01
+    1      3.40e-06   1.00e+00   3.49e-15   1.13e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.1279E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -2.397E-04        -1.136E-16       -2.397E-04
+ n2contact    1.760E+00       2.397E-04         1.136E-16        2.397E-04
+
+Computing step from t=0.38 to t=0.4 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.82e-06                                                      0.01
+    1      3.17e-06   1.00e+00   3.46e-15   1.21e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.2095E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -2.452E-04        -1.162E-16       -2.452E-04
+ n2contact    1.800E+00       2.452E-04         1.162E-16        2.452E-04
+
+Computing step from t=0.4 to t=0.42 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      6.79e-06                                                      0.01
+    1      3.74e-06   1.00e+00   5.86e-15   1.33e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.3253E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -2.506E-04        -1.188E-16       -2.506E-04
+ n2contact    1.840E+00       2.506E-04         1.188E-16        2.506E-04
+
+Computing step from t=0.42 to t=0.44 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.05e-05                                                      0.01
+    1      3.56e-06   1.00e+00   5.53e-15   1.39e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.3878E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -2.561E-04        -1.214E-16       -2.561E-04
+ n2contact    1.880E+00       2.561E-04         1.214E-16        2.561E-04
+
+Computing step from t=0.44 to t=0.46 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.03e-05                                                      0.01
+    1      3.52e-06   1.00e+00   4.23e-15   1.26e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.2557E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -2.615E-04        -1.240E-16       -2.615E-04
+ n2contact    1.920E+00       2.615E-04         1.240E-16        2.615E-04
+
+Computing step from t=0.46 to t=0.48 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.03e-05                                                      0.01
+    1      3.46e-06   1.00e+00   3.77e-15   1.18e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.1826E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -2.670E-04        -1.265E-16       -2.670E-04
+ n2contact    1.960E+00       2.670E-04         1.265E-16        2.670E-04
+
+Computing step from t=0.48 to t=0.5 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      7.00e-06                                                      0.01
+    1      3.52e-06   1.00e+00   8.89e-15   1.72e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.7239E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -2.724E-04        -1.291E-16       -2.724E-04
+ n2contact    2.000E+00       2.724E-04         1.291E-16        2.724E-04
+
+Computing step from t=0.5 to t=0.52 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.04e-05                                                      0.01
+    1      3.73e-06   1.00e+00   1.33e-14   2.17e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 2.1652E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -2.779E-04        -1.317E-16       -2.779E-04
+ n2contact    2.040E+00       2.779E-04         1.317E-16        2.779E-04
+
+Computing step from t=0.52 to t=0.54 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      9.86e-06                                                      0.01
+    1      3.64e-06   1.00e+00   3.83e-15   1.20e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.1998E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -2.833E-04        -1.343E-16       -2.833E-04
+ n2contact    2.080E+00       2.833E-04         1.343E-16        2.833E-04
+
+Computing step from t=0.54 to t=0.56 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.06e-05                                                      0.01
+    1      3.73e-06   1.00e+00   3.46e-15   1.20e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.2042E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -2.888E-04        -1.369E-16       -2.888E-04
+ n2contact    2.120E+00       2.888E-04         1.369E-16        2.888E-04
+
+Computing step from t=0.56 to t=0.58 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.06e-05                                                      0.02
+    1      3.78e-06   1.00e+00   3.68e-15   1.26e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.2551E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -2.942E-04        -1.395E-16       -2.942E-04
+ n2contact    2.160E+00       2.942E-04         1.395E-16        2.942E-04
+
+Computing step from t=0.58 to t=0.6 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.07e-05                                                      0.01
+    1      3.43e-06   1.00e+00   3.74e-15   1.16e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.1649E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -2.997E-04        -1.420E-16       -2.997E-04
+ n2contact    2.200E+00       2.997E-04         1.420E-16        2.997E-04
+
+Computing step from t=0.6 to t=0.62 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.03e-05                                                      0.01
+    1      3.70e-06   1.00e+00   4.40e-15   1.27e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.2731E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -3.051E-04        -1.446E-16       -3.051E-04
+ n2contact    2.240E+00       3.051E-04         1.446E-16        3.051E-04
+
+Computing step from t=0.62 to t=0.64 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.02e-05                                                      0.01
+    1      4.07e-06   1.00e+00   3.78e-15   1.16e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.1592E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -3.106E-04        -1.472E-16       -3.106E-04
+ n2contact    2.280E+00       3.106E-04         1.472E-16        3.106E-04
+
+Computing step from t=0.64 to t=0.66 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.09e-05                                                      0.02
+    1      4.05e-06   1.00e+00   4.21e-15   1.27e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.2668E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -3.160E-04        -1.498E-16       -3.160E-04
+ n2contact    2.320E+00       3.160E-04         1.498E-16        3.160E-04
+
+Computing step from t=0.66 to t=0.68 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.08e-05                                                      0.02
+    1      4.02e-06   1.00e+00   7.40e-15   1.53e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.5278E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.00 s
+Solve time:      0.00 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -3.215E-04        -1.524E-16       -3.215E-04
+ n2contact    2.360E+00       3.215E-04         1.524E-16        3.215E-04
+
+Computing step from t=0.68 to t=0.7 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      9.39e-06                                                      0.01
+    1      3.46e-06   1.00e+00   7.54e-15   1.57e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.5679E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -3.269E-04        -1.550E-16       -3.269E-04
+ n2contact    2.400E+00       3.269E-04         1.550E-16        3.269E-04
+
+Computing step from t=0.7 to t=0.72 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      6.77e-06                                                      0.01
+    1      3.70e-06   1.00e+00   4.49e-15   1.23e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.2270E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -3.324E-04        -1.575E-16       -3.324E-04
+ n2contact    2.440E+00       3.324E-04         1.575E-16        3.324E-04
+
+Computing step from t=0.72 to t=0.74 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      7.15e-06                                                      0.01
+    1      4.34e-06   1.00e+00   4.31e-15   1.19e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.1875E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -3.378E-04        -1.601E-16       -3.378E-04
+ n2contact    2.480E+00       3.378E-04         1.601E-16        3.378E-04
+
+Computing step from t=0.74 to t=0.76 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.02e-05                                                      0.01
+    1      4.50e-06   1.00e+00   4.02e-15   1.13e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.1327E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -3.433E-04        -1.627E-16       -3.433E-04
+ n2contact    2.520E+00       3.433E-04         1.627E-16        3.433E-04
+
+Computing step from t=0.76 to t=0.78 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.13e-05                                                      0.01
+    1      4.56e-06   1.00e+00   3.69e-15   1.11e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.1115E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -3.487E-04        -1.653E-16       -3.487E-04
+ n2contact    2.560E+00       3.487E-04         1.653E-16        3.487E-04
+
+Computing step from t=0.78 to t=0.8 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      8.99e-06                                                      0.02
+    1      5.69e-06   1.00e+00   3.97e-15   1.15e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.1541E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -3.542E-04        -1.679E-16       -3.542E-04
+ n2contact    2.600E+00       3.542E-04         1.679E-16        3.542E-04
+
+Computing step from t=0.8 to t=0.82 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.58e-05                                                      0.01
+    1      3.70e-06   1.00e+00   4.31e-15   1.20e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.1996E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -3.596E-04        -1.705E-16       -3.596E-04
+ n2contact    2.640E+00       3.596E-04         1.705E-16        3.596E-04
+
+Computing step from t=0.82 to t=0.84 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.02e-05                                                      0.01
+    1      4.69e-06   1.00e+00   4.08e-15   1.18e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.1772E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -3.651E-04        -1.730E-16       -3.651E-04
+ n2contact    2.680E+00       3.651E-04         1.730E-16        3.651E-04
+
+Computing step from t=0.84 to t=0.86 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.03e-05                                                      0.01
+    1      4.77e-06   1.00e+00   3.80e-15   1.07e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.0739E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -3.705E-04        -1.756E-16       -3.705E-04
+ n2contact    2.720E+00       3.705E-04         1.756E-16        3.705E-04
+
+Computing step from t=0.86 to t=0.88 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.18e-05                                                      0.01
+    1      4.77e-06   1.00e+00   4.53e-15   1.20e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.1952E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -3.760E-04        -1.782E-16       -3.760E-04
+ n2contact    2.760E+00       3.760E-04         1.782E-16        3.760E-04
+
+Computing step from t=0.88 to t=0.9 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.17e-05                                                      0.01
+    1      1.46e-06   1.00e+00   4.09e-15   1.21e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.2081E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -3.814E-04        -1.808E-16       -3.814E-04
+ n2contact    2.800E+00       3.814E-04         1.808E-16        3.814E-04
+
+Computing step from t=0.9 to t=0.92 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.90e-06                                                      0.02
+    1      5.35e-06   1.00e+00   3.95e-15   1.25e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.2547E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -3.869E-04        -1.834E-16       -3.869E-04
+ n2contact    2.840E+00       3.869E-04         1.834E-16        3.869E-04
+
+Computing step from t=0.92 to t=0.94 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.20e-05                                                      0.02
+    1      3.46e-06   1.00e+00   4.02e-15   1.21e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.2091E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -3.923E-04        -1.859E-16       -3.923E-04
+ n2contact    2.880E+00       3.923E-04         1.859E-16        3.923E-04
+
+Computing step from t=0.94 to t=0.96 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.03e-05                                                      0.01
+    1      3.49e-06   1.00e+00   4.05e-15   1.28e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.2757E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.01 s
+Solve time:      0.00 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -3.978E-04        -1.885E-16       -3.978E-04
+ n2contact    2.920E+00       3.978E-04         1.885E-16        3.978E-04
+
+Computing step from t=0.96 to t=0.98 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.01e-05                                                      0.02
+    1      5.10e-06   1.00e+00   4.49e-15   1.29e-11    0         1      0.04
+Finished, because...
+Error smaller than 1 ( 1.2937E-11 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.04 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -4.032E-04        -1.911E-16       -4.032E-04
+ n2contact    2.960E+00       4.032E-04         1.911E-16        4.032E-04
+
+Computing step from t=0.98 to t=1 (Stepsize: 0.02) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.55e-05                                                      0.01
+    1      4.98e-06   1.00e+00   5.68e-15   1.31e-11    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 1.3148E-11 ).
+
+Accumulated times:
+Rhs time:        0.02 s
+Jacobian time:   0.00 s
+Solve time:      0.01 s
+Total time:      0.03 s
+
+
+Plot started:
+Saving device '':
+    Writing plot '3V_neg_dd_des.tdr' (TDR format) ... done.
+Saving circuit:
+    Writing '3V_neg_dd_circuit_des.sav' ... done.
+Plot finished.
+
+contact        voltage     electron current    hole current  conduction current
+ n1contact    0.000E+00      -4.087E-04        -1.937E-16       -4.087E-04
+ n2contact    3.000E+00       4.087E-04         1.937E-16        4.087E-04
+
+
+Finished, because of...
+Curve trace finished.
+
+Writing plot 'MIM_plot_eg_dd.dat' (TDR format) ... done.
+
+Sat Oct  5 22:50:44 2019: checked in 1 sdevice license(s)
+Sat Oct  5 22:50:44 2019: checked in 1 Dessis license(s)
+
+******************************************************************************
+Sentaurus Device process size: 292 megabytes
+Sentaurus Device simulation times:
+  wallclock: 39.38 s
+  total cpu: 9.97 s
+Sentaurus Device simulation finished (Date: Sat Oct  5 22:50:44 2019  (IST)).
+********************************* Good Bye ! *********************************

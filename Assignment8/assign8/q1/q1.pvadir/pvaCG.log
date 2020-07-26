@@ -1,0 +1,17 @@
+
+Begin of pVA compiling on Sat Nov  2 01:35:07 2019	GTM/In-use: 0.2500/0.1967 MB
+
+Parsing 'q1.va'
+Parsing include file '/usr/local/Software/Hspice/hspice/P-2019.06-SP1-1/hspice/include/disciplines.vams'
+Parsing include file '/usr/local/Software/Hspice/hspice/P-2019.06-SP1-1/hspice/include/constants.vams'
+
+End of pVA compiling on Sat Nov  2 01:35:07 2019	GTM/In-use: 0.3750/0.2905 MB
+
+
+End of build pVA DB on Sat Nov  2 01:35:08 2019	GTM/In-use: 1.5000/1.4339 MB
+
+
+q1.pvadir/pvaRTL_linux64.so is reused
+
+End of pVA elaboration on Sat Nov  2 01:35:08 2019	GTM/In-use: 1.7500/1.6229 MB
+

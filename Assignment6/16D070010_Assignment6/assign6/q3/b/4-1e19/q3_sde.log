@@ -1,0 +1,63 @@
+Evaluating file q3_sde.scm
+---> (define mesh 0.005)
+mesh
+---> (sdegeo:create-rectangle (position 0 0 0) (position 2 2 0) Silicon ptype)
+#[body 5 1]
+---> (sdegeo:create-rectangle (position 2 0 0) (position 4 2 0) Silicon ntype)
+#[body 6 1]
+---> (sdedr:define-constant-profile ConstantProfileDefinition_1 BoronActiveConcentration 1e+19)
+#t
+---> (sdedr:define-constant-profile-region ConstantProfilePlacement_1 ConstantProfileDefinition_1 ptype)
+#t
+---> (sdedr:define-constant-profile-placement ConstantProfilePlacement_1 ConstantProfileDefinition_1 ptypewindow)
+#t
+---> (sdedr:define-constant-profile ConstantProfileDefinition_2 PhosphorusActiveConcentration 1e+19)
+#t
+---> (sdedr:define-constant-profile-region ConstantProfilePlacement_2 ConstantProfileDefinition_2 ntype)
+#t
+---> (sdedr:define-constant-profile-placement ConstantProfilePlacement_2 ConstantProfileDefinition_2 ntypewindow)
+#t
+---> (sdegeo:define-contact-set n1contact 4.0 (color:rgb 1.0 0.0 0.0) %%)
+()
+---> (sdegeo:define-contact-set n2contact 4.0 (color:rgb 1.0 0.0 0.0) ||)
+()
+---> (sdegeo:define-2d-contact (list (car (find-edge-id (position 0 1 0)))) n1contact)
+()
+---> (sdegeo:define-2d-contact (list (car (find-edge-id (position 4 1 0)))) n2contact)
+()
+---> (sdedr:define-refeval-window RefEvalWin_1 Rectangle (position (- 0 0.2) (- 0 0.2) 0) (position (+ 4 0.2) (+ 2 0.2) 0))
+#[body 15 1]
+---> (sdedr:define-refinement-size RefinementDefinition_1 0.25 0.1 0.25 0.1)
+#t
+---> (sdedr:define-refinement-placement RefinementPlacement_1 RefinementDefinition_1 RefEvalWin_1)
+#t
+---> (sdedr:define-refeval-window RefEvalWin_2 Rectangle (position 0 0 0) (position 0.2 2 0))
+#[body 16 1]
+---> (sdedr:define-refinement-placement RefinementPlacement_2 RefinementDefinition_2 RefEvalWin_2)
+#t
+---> (sdedr:define-refinement-size RefinementDefinition_2 0.05 0.05 0.05 0.05)
+#t
+---> (sdedr:define-refeval-window RefEvalWin_3 Rectangle (position 3.8 0 0) (position 4 2 0))
+#[body 17 1]
+---> (sdedr:define-refinement-placement RefinementPlacement_3 RefinementDefinition_3 RefEvalWin_3)
+#t
+---> (sdedr:define-refinement-size RefinementDefinition_3 0.05 0.05 0.05 0.05)
+#t
+---> (sdedr:define-refeval-window RefEvalWin_4 Rectangle (position 1.9 0 0) (position 2.1 2 0))
+#[body 18 1]
+---> (sdedr:define-refinement-placement RefinementPlacement_4 RefinementDefinition_4 RefEvalWin_4)
+#t
+---> (sdedr:define-refinement-size RefinementDefinition_4 0.01 0.01 0.01 0.01)
+#t
+---> (sde:save-model q3)
+#t
+---> (sde:build-mesh snmesh -a -c boxmethod q3)
+#t
+---> #[end-of-file]
+"************************************************************************"
+"Sentaurus Structure Editor "
+"Start Time:    Wed Oct 16 20:36:03 2019"
+"End   Time:    Wed Oct 16 20:36:08 2019"
+"Total Execution Time (sec):    0"
+"Total System calls Time (sec): 0"
+"************************************************************************"

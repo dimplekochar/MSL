@@ -1,0 +1,41 @@
+`include "disciplines.vams"
+`include "constants.vams"
+
+module simple_mos (d,g,s,b);
+
+inout d,g,s,b;
+electrical d,g,s,b;
+
+parameter real W=1e-5 from [0:inf]; 
+parameter real L=1e-5 from [0:inf];
+
+
+parameter real VTO=0.4 from [0:inf];
+parameter real mu=1400 from [0:inf];
+parameter real NA=1e17 from [1e13:1e22];
+parameter real TOX=20e-7;
+parameter real VSB=1;
+real P_EPSOX=3.9*8.85e-14;
+real P_EPSSI=11.7*8.85e-14;
+real P_EPS=8.85e-14;
+real Vt_phif=0.026;
+real PHI,GAMMA,COX,PHI_F,VT;
+real Ni=1e10;
+real q=1.6e-19;
+analog
+begin
+
+PHI_F = Vt_phif*ln(NA/Ni);
+GAMMA = (sqrt(2*P_EPSSI*q*NA))*TOX/P_EPSOX;
+VT = VTO+(GAMMA*((sqrt((2*PHI_F)+VSB))-(sqrt(2*PHI_F))));
+
+if (V(g,s) > VT)
+	begin
+		if(V(g,s)-VT>V(d,s))
+			I(d,s) <+ (mu*P_EPSOX*W/(L*TOX))*((V(g,s)-VT)*V(d,s)-(V(d,s)*V(d,s)/2));
+		else
+			I(d,s) <+ (mu*P_EPSOX*W/(L*TOX*2))*((V(g,s)-VT)*(V(g,s)-VT));
+end
+
+end
+endmodule

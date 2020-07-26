@@ -1,0 +1,21 @@
+load_file /home/users/EE735_2019/EE735_6/dimple/assign7/A/3/5_pn_final_structure_fps.tdr
+create_plot -dataset 5_pn_final_structure_fps
+select_plots {Plot_5_pn_final_structure_fps}
+#-> Plot_5_pn_final_structure_fps
+#-> Plot_5_pn_final_structure_fps
+#-> 5_pn_final_structure_fps
+export_view /home/users/EE735_2019/EE735_6/dimple/assign7/A/3/dev.png -plots {Plot_5_pn_final_structure_fps} -format PNG
+#-> 0
+create_cutline -plot Plot_5_pn_final_structure_fps -type x -at 0.50167
+select_plots {Plot_1}
+#-> Plot_1
+#-> C1(5_pn_final_structure_fps)
+export_view /home/users/EE735_2019/EE735_6/dimple/assign7/A/3/conc.png -plots {Plot_1} -format PNG
+#-> 0
+set_axis_prop -plot Plot_1 -axis y -type log
+#-> 0
+zoom_plot -plot Plot_1 -reset
+zoom_plot -plot Plot_1 -reset
+export_view /home/users/EE735_2019/EE735_6/dimple/assign7/A/3/conclog.png -plots {Plot_1} -format PNG
+#-> 0
+exit
